@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/promoView_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="12dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_promocode_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st_enter_promo"
+        android:includeFontPadding="false"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        android:fontFamily="@font/gulf_regular"
+        />
+
+    <LinearLayout
+        android:id="@+id/addPromoLL"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textview_promocode_head"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/view_selector_green_ar"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextPromocode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+
+            android:background="@android:color/transparent"
+            android:hint="@string/st_enter_promo"
+            android:includeFontPadding="false"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:fontFamily="@font/gulf_regular"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/text_color"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvAddpromoCode"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/promo_bg_ar"
+            android:gravity="center"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:text="@string/st_apply"
+
+            android:includeFontPadding="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="@font/gulf_regular"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

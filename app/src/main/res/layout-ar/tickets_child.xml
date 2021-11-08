@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/btn_selector_white"
+
+    android:layout_margin="5dp"
+
+    >
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="100dp"
+        android:id="@+id/iv_status"
+        android:background="@drawable/pending_filled_ar"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st_no"
+        android:id="@+id/label_complaint"
+        android:layout_toEndOf="@+id/iv_status"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dsdsds"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_complaint"
+        android:layout_toEndOf="@+id/label_complaint"
+
+        android:textColor="@color/colorPrimary"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dasdas"
+        android:id="@+id/tv_status"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="csadscdsdcsd"
+        android:id="@+id/tv_category"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/label_complaint"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/iv_status"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st_replies"
+        android:layout_toStartOf="@+id/tv_replies"
+        android:id="@+id/label_replies"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/label_complaint"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dasdas"
+        android:id="@+id/tv_replies"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/label_complaint"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tv_description"
+        android:layout_below="@+id/tv_replies"
+        android:singleLine="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/iv_status"
+        android:textColor="@color/colorPrimary"/>
+
+</RelativeLayout>

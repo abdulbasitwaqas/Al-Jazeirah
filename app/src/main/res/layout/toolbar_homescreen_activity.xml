@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/bgIVMAToolBar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_top_wave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ImageView
+            android:id="@+id/imageViewBackButton"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:src="@mipmap/back_btn"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvToolbarTitleTCA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:padding="10dp"
+            android:maxWidth="250dp"
+            android:textColor="@color/text_color"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:padding="7dp"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textview_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawableStart="@drawable/locationicon"
+        android:drawablePadding="7dp"
+        android:gravity="left|center_vertical"
+        android:padding="6dp"
+        android:fontFamily="@font/roboto_regular"
+        android:singleLine="true"
+        android:textColor="@color/text_color"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/badge_viewFH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_location"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ImageView
+            android:id="@+id/basket_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/baskit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/basket_badge"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/oval_cart"
+            android:gravity="center"
+            android:maxEms="2"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/basket_img"
+            app:layout_constraintStart_toStartOf="@+id/basket_img"
+            app:layout_constraintTop_toTopOf="@+id/basket_img"
+            app:layout_constraintVertical_bias="1.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

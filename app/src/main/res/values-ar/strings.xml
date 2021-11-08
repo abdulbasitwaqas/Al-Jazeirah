@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الجزيرة</string>
+
+
+    <string name="facebook_app_id">415486665695330</string>
+    <string name="slide1">http://aljazeriah.com.sa/wp-content/uploads/revslider/rest-home-arabic/textAR1.png</string>
+    <string name="slide2">http://aljazeriah.com.sa/wp-content/uploads/revslider/rest-home-arabic/textAR2.png</string>
+    <string name="slide3">http://aljazeriah.com.sa/wp-content/uploads/revslider/rest-home-arabic/textAR3.png</string>
+    <string name="skip_as_visitor">تخطى كزائر </string>
+    <string name="home">الرئيسية</string>
+    <string name="delivery_address">عنوان التوصيل</string>
+    <string name="about_berain">عن الجزيرة</string>
+    <string name="sign_in">تسجيل دخول</string>
+    <string name="pass">ادخل كلمة المرور</string>
+    <string name="email_or_mobile">الجوال - البريد الالكترونى</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="forget_password">نسيت كلمة المرور ؟</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="my_order"> طلباتى</string>
+    <string name="lets_get_started">Let\'s get started</string>
+    <string name="city">المدينة</string>
+    <string name="choose_your_channel">نوع الحساب</string>
+    <string name="choose_your_sub_channel">نوع الحساب الفرعي</string>
+    <!--<string name="first_name">الاسم الاول</string>-->
+    <string name="first_name">الاسم</string>
+    <string name="last_name">الاسم الأخير</string>
+    <string name="email">البريد الإلكترونى</string>
+    <string name="password">كلمة المرور</string>
+    <string name="mobile">رقم الجوال</string>
+    <string name="next">التالى</string>
+    <string name="register_account">تسجيل جديد</string>
+    <string name="create_an_account">انشاء حساب</string>
+    <string name="password_hint">*******</string>
+    <string name="add_new_address">اضافة عنوان جديد</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="company">اسم الشركة</string>
+    <string name="please_wait">أرجو الإنتظار</string>
+    <string name="products">المنتجات</string>
+    <string name="all_products">جميع المنتجات</string>
+    <string name="shopping_cart">سلة المشتريات</string>
+    <string name="currency">ر.س</string>
+    <string name="total_amount">إجمالي بدون ضريبة القيمة المضافة</string>
+    <string name="check_out">اكمال الطلب</string>
+    <string name="back_to_home">العودة للصفحة الرئيسية</string>
+    <string name="empty_cart">حذف سلة المشتريات</string>
+    <string name="deleting_confirm">تأكيد عملية الحذف</string>
+    <string name="remove_product_message">هل تريد حذف هذا المنتج من سلة المشتريات</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="cancelled">ملغى</string>
+
+    <string name="empty_cart_message">هل تريد حذف جميع المنتجات من سلة المشتريات</string>
+    <string name="shopping_cart_is_empty">لا يوجد منتجات فى سلة المشتريات</string>
+    <string name="order_number"> طلبك رقم </string>
+    <string name="collen">:</string>
+    <string name="space"> </string>
+    <string name="date">التاريخ</string>
+    <string name="order_0">تم استلام طلبك بنجاح</string>
+    <string name="order_2">تم تاكيد طلبك </string>
+    <string name="order_3">تم تسليم طلبك الى سائق التوصيل</string>
+    <string name="order_4">تم توصيل طلبك</string>
+    <string name="order_5">تم استلام طلبك بنجاح </string>
+    <string name="order_6">تم الغاء طلبك </string>
+    <string name="order_7">طلبك معلق </string>
+    <string name="order_8">طلبك معلق </string>
+    <string name="re_order">اعادة الطلب</string>
+    <string name="cancel_order">الغاء الطلب</string>
+    <string name="edit_order">تعديل الطلب</string>
+    <string name="carton">كرتون</string>
+    <string name="delivery_time">وقت التوصيل</string>
+    <string name="note">إضافة ملاحظة</string>
+    <string name="order_cancellation_reasons">سبب إلغاء الطلب</string>
+    <string name="st_refund_to_wallet">استرداد المبلغ الى المحفظة</string>
+    <string name="st_refund_to_bank">ارجاع المبلغ الى البنك</string>
+    <string name="login_by_phone">يرجى تسجيل الدخول عن طريق رقم هاتفك</string>
+    <string name="otp_message">يرجى إدخال رقم التحقق</string>
+    <string name="invalid_otp">رمز التحقق غير صحيح</string>
+    <string name="enter_name">من فضلك أدخل إسمك</string>
+    <string name="submit">موافق</string>
+
+
+    <string name="career_url">http://aljazeriah.com.sa/%D8%A7%D9%84%D8%AA%D9%88%D8%B8%D9%8A%D9%81</string>
+    <string name="faq_url">http://aljazeriah.com.sa/%D8%A7%D9%84%D8%A7%D8%B3%D8%A6%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9</string>
+    <string name="news_url">http://aljazeriah.com.sa/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1</string>
+    <string name="connect_url">http://aljazeriah.com.sa/contact</string>
+    <string name="about_url">http://aljazeriah.com.sa/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A91</string>
+    <string name="why_berain_url">http://aljazeriah.com.sa/our-team</string>
+    <string name="social_url">http://aljazeriah.com.sa/%D8%AD%D8%A7%D8%A6%D8%B7-%D8%A7%D9%84%D8%B3%D9%88%D8%B4%D9%8A%D8%A7%D9%84</string>
+    <string name="logout_message"> هل تريد تسجيل الخروج من التطبيق؟</string>
+    <string name="choose_address">يرجى اختيار عنوان التوصيل</string>
+    <string name="address_des"> العنوان بالتفصيل *</string>
+    <string name="search">بحث</string>
+    <string name="city_req">المدينة *</string>
+    <string name="area_req">المنطقه *</string>
+    <string name="address_name_req">اسم العنوان *</string>
+    <string name="address_name">اسم العنوان</string>
+    <string name="building_num">رقم المبنى</string>
+    <string name="block">رقم المبنى</string>
+    <string name="floor">رقم الدور</string>
+    <string name="floor_num">رقم الدور</string>
+    <string name="error_text">CITY NAMES SHOULD COME FROM DATABASAE NOT STATIC</string>
+    <string name="saudia">السعودية</string>
+    <string name="get_my_location">الانتقال الى موقعي</string>
+    <string name="save">حفظ</string>
+    <string name="share">مشاركة التطبيق</string>
+    <string name="please_login">الرجاء تسجيل الدخول للمتابعة</string>
+    <string name="alert">تنبيه !</string>
+    <string name="change_address">هل تريد تغيير مكان التوصيل؟</string>
+    <string name="deleting_address">هل تريد حذف هذا العنوان ؟</string>
+    <string name="required">يشترط اختيار واحد على الاقل </string>
+    <string name="confirm_password">إعادة كلمة المرور</string>
+    <string name="keep_blank">تبقى فارغة اذا كنت لا تريد أى تعديل </string>
+    <string name="my_account">حسابى</string>
+    <string name="choose_area"> أخترالمنطقة</string>
+    <string name="cash_on_delivery">الدفع عند الاستلام</string>
+    <string name="credit_card">بطاقة ائتمان</string>
+    <string name="sadad">سداد</string>
+    <string name="enter_code">ادخل رقم التحقق المرسل لك</string>
+    <string name="might_take_time">سيستغرق بعض الوقت</string>
+    <string name="did_not_get">لم احصل على رقم التحقق ؟</string>
+    <string name="resend_code">اضغط هنا لاعادة الارسال</string>
+    <string name="code_problem">اذا كان هناك ثمة مشكلة مع رقم التحقق المرسل برجاء الاتصال بخدمة العملاء على </string>
+
+    <string name="get_started">ابدأ</string>
+    <string name="app_language">English</string>
+
+    <string name="reset_password">اعادة تعيين كلمة المرور</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="confirm_new_password">تأكيد كلمة المرور الجديدة</string>
+    <string name="reset_pass">تأكيد</string>
+    <string name="password_not_equal">كلمتا المرور غير متطابقين</string>
+    <string name="thank_you">شكرا لك</string>
+    <string name="congratulation"> تهانينا</string>
+    <string name="thank_u_for_choosing">شكراً لإختياركم مياه الجزيرة</string>
+    <string name="history_orders">سجل الطلبات</string>
+    <string name="min_order_amount">الحد الأدنى لابد ان يكون </string>
+    <string name="min_order_amount_1"> كرتون/حزمة </string>
+    <string name="welcome">مرحبا</string>
+    <string name="back_to_products">العودة للصفحة المنتجات</string>
+    <string name="activated">مفعل</string>
+    <string name="seletect_city"> أختر المدينة</string>
+    <string name="success">تم الحفظ بنجاح</string>
+    <string name="place_order">تأكيد الطلب</string>
+    <string name="proceed">الخطوة التالية</string>
+    <string name="time">  الوقت </string>
+    <string name="payment_method">اختر طريقة الدفع</string>
+    <string name="sadad_account_id">حساب سداد</string>
+    <string name="card_holder_name">إسم صاحب البطاقة</string>
+    <string name="cvv">CVV</string>
+    <string name="card_number">رقم البطاقة</string>
+    <string name="expiry_month">شهر إنتهاء الصلاحية</string>
+    <string name="expiry_year">سنة انتهاء الصلاحية</string>
+
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <string name="year_1">2018</string>
+    <string name="year_2">2019</string>
+    <string name="year_3">2020</string>
+    <string name="year_4">2021</string>
+    <string name="year_5">2022</string>
+    <string name="year_6">2023</string>
+    <string name="year_7">2024</string>
+    <string name="year_8">2025</string>
+    <string name="year_9">2026</string>
+    <string name="year_10">2027</string>
+    <string name="year_11">2028</string>
+    <string name="year_12">2029</string>
+    <string name="year_13">2030</string>
+    <string name="total">المبلغ الإجمالى</string>
+    <string name="vat">القيمة المضافة</string>
+    <string name="payment_detail">تفاصيل الدفع</string>
+    <string name="order_now">اطلب الان</string>
+    <string name="contact_us">إتصل بنا</string>
+    <string name="share_the_app">مشاركة التطبيق</string>
+    <string name="media_center">المركز الاعلامي</string>
+    <string name="career">التوظيف</string>
+    <string name="why_berain">لماذا الجزيرة؟</string>
+    <string name="login_to_proceed">قم بالتسجيل اولا</string>
+    <string name="total_order">اجمالي الطلب</string>
+    <string name="street_name">اسم الشارع</string>
+    <string name="total_payable">إجمالي المبلغ المستحق الدفع</string>
+    <string name="account_confirmation">تأكيد الحساب</string>
+    <string name="news">الأخبار</string>
+    <string name="social_media">مواقع التواصل الإجتماعي</string>
+    <string name="faqs">الأسئلة الشائعة</string>
+    <string name="share_it">مشاركة التطبيق</string>
+    <string name="transaction_success">تمت عملية الدفع بنجاح :</string>
+    <string name="delicious_text">https://aljazierah.com/</string>
+    <string name="payment_reference">رقم عملية الدفع</string>
+    <string name="sadad_info_text">سيتم توجيهك لموقع البنك لإكمال عملية الدفع</string>
+    <string name="error_connect">يرجى التحقق من الاتصال بالإنترنت </string>
+    <string name="invalid_input">الرجاء إدخال بيانات صحيحه</string>
+    <string name="invalid_mobile">الرجاء إدخال رقم جوال صحيح</string>
+
+
+    <string name="title_activity_drawer">مياه الجزيرة</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">الاعدادات</string>
+    <string name="communicate">Communicate</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_address">اضافة عنوان جديد</string>
+    <string name="title_activity_maps">الخريطه</string>
+    <string name="update_version">تحديث جديد للتطبيق</string>
+    <string name="update_version_msg">يوجد تحديث جديد للتطبيق. الرجاء الظغط علي موافق للحصول علي التحديث.</string>
+    <string name="incorrect_login_error"> رقم جوال او كلمة المرور غير صحيح </string>
+    <string name="mobile_eg">05xxxxxxxx</string>
+    <string name="no_service_in_area">لا توجد خدمة توصيل فى هذه المدينة </string>
+    <string name="no_service_in_area1">
+      \n نأسف !
+\nموقعك الحالي خارج نطاق تغطية التوصيل حالياً
+هل ترغب في التوصيل إلى مكان آخر؟\n
+الرجاء اختيار موقع آخر تريد طلب الجزيرة إليه ثم اختر منتجك المفضل ليتم توصيله
+    </string>
+
+    <string name="yes">نعم</string>
+    <string name="go_to_orders">سجل الطلبات</string>
+    <string name="open_orders">طلبات غير مكتملة</string>
+    <string name="open_order_dialog_message">لديك طلب غير مكتمل. هل تود انشاء جديد؟</string>
+    <string name="current_orders">الطلبات الحالية: </string>
+    <string name="cancel_order_success_title"> </string>
+    <string name="cancel_order_failed_title"> </string>
+    <string name="cancel_order_pending_title"> </string>
+    <string name="cancel_order_success_status">تم الغاء الطلب بنجاح</string>
+    <string name="cancel_order_failed_status">لا يمكن إلغاء طلبك. الرجاء التواصل مع مركز خدمة العملاء.</string>
+    <string name="cancel_order_pending_status">تم تقديم طلبك للمراجعة بنجاح</string>
+    <string name="no_time_slot_msg">الفترة المختارة للتوصيل غير متاحة</string>
+    <string name="promotion">العرض الترويجي</string>
+    <string name="promotion_msg">كمية الكراتين المجانية:</string>
+
+
+    <string name="order">الطلبات</string>
+    <string name="offer">العروض</string>
+    <string name="more">المزيد</string>
+
+
+    <string name="st_active">الطلبات الحالية</string>
+    <string name="st_history">الطلبات السابقة</string>
+    <string name="st_favourite">الطلبات المفضلة</string>
+    <string name="st_productype">نوع المنتج</string>
+    <string name="st_product_name">اسم المنتج</string>
+    <string name="st_price">السعر</string>
+    <string name="st_products">المنتجات</string>
+    <string name="st_product">المنتج</string>
+    <string name="st_orders">طلباتك</string>
+
+
+    <string name="st_order_placed">تم انشاء الطلب</string>
+    <string name="st_verified">تم تأكيد الطلب</string>
+    <string name="st_shipped">تم شحن الطلب</string>
+    <string name="st_delivered">تم استلام الطلب</string>
+    <string name="to_proceed_to_check_out_please_enter_your_phone_number">لاستكمال عملية التسجيل  برجاء ادخل رقم هاتفك</string>
+    <string name="we_will_send_you_one_time_sms_message">سيتم ارسال رسالة نصية برقم التحقق</string>
+    <string name="enter_your_number">ادخل رقم الهاتف</string>
+    <string name="_string_error_username">Enter Valid User Name</string>
+    <string name="_string_error_password">Enter Password</string>
+    <string name="oldpassword">كلمة المرور قديمة</string>
+
+    <string name="_string_home_user"> تسجيل أفراد</string>
+    <string name="_string_login_as_home_user">تسجيل دخول أفراد</string>
+    <string name="_string_corporate_user"> تسجيل شركات</string>
+    <string name="_string_login_as_corporate_user"> تسجيل دخول شركات</string>
+    <string name="_string_user_name">اسم أفراد</string>
+
+    <string name="verify">تأكيد</string>
+    <string name="verification_code"> رقم التحقق</string>
+    <string name="please_type_the_verification_code_sent_to">يرجي ادخال رقم التحقق</string>
+    <string name="didn_t_receive_a_code">لم تحصل على رقم التحقق؟</string>
+    <string name="please_wait_0_57"> يرجي الانتظار  </string>
+    <string name="st_glass">زجاج</string>
+
+    <string name="st_plastic">بلاستيك</string>
+    <string name="Order_id">رقم الطلب #</string>
+    <string name="st_prom_expired">انتهت مدة صلاحية الرمز الترويجي </string>
+    <string name="st_prom_not_available">الرمز الترويجي غير متوفر في مدينتك</string>
+    <string name="st_prom_used">الرمز مستخدم بالفعل</string>
+    <string name="st_prom_notfound">الرمز غير صحيح</string>
+    <string name="st_prom_notless">قيمة الطلب اقل من الحد الادنى للعرض الترويجي</string>
+    <string name="promo_min_qty_error">إجمالي كمية الطلب أقل من كمية الترميز المرغوبة</string>
+    <string name="personal_info">البيانات الشخصية</string>
+    <string name="Your_Cart">سلة المشتريات</string>
+    <string name="Order_Details">تفاصيل الطلب</string>
+    <string name="View_Cart"> الاطلاع على سلة المشتريات</string>
+    <string name="st_order_created">الطلب </string>
+    <string name="st_transaction_created">رقم العملية البنكية</string>
+    <string name="st_validtill">صالح حتى</string>
+    <string name="st_orderarrived">تم تسليم طلبك في الوقت المحدد!</string>
+    <string name="st_rateorder">يرجى تقييم تجربتك.</string>
+
+    <string name="st_orderarrived_feedback">تم تسليم طلبكم رقم</string>
+    <string name="st_rateorder_feedback">يرجى تقييم خدمتنا</string>
+    <string name="st_thankyou">شكرا جزيلا!</string>
+
+    <string name="st_p_quality">جودة المنتج</string>
+    <string name="st_p_deliverytime">موعد التسليم</string>
+    <string name="st_p_deliveryman">تعامل المندوب</string>
+    <string name="st_wallet">المحفظة</string>
+    <string name="st_available_bln">الرصيد المتوفر</string>
+    <string name="st_change">تعديل</string>
+
+    <string name="st_cancelled">ملغى</string>
+    <string name="st_process">معالجة</string>
+    <string name="st_debit">آخر استخدام</string>
+    <string name="st_credit">آخر إضافة</string>
+    <string name="st_shopnow">تسوق الآن</string>
+
+
+    <string name="st_cancel">للحصول على المساعدة ، يرجى الاتصال على 920025555</string>
+    <string name="st_assistance">يرجى الاتصال على </string>
+    <string name="st_assistance1"> لإلغاء الطلب</string>
+    <string name="st_resend_sms">اعادة الرسال الرسالة</string>
+    <string name="st_confirm_messsage">قد تتم إزالة بعض الأصناف الخاصة بك في حال تغيير موقعك</string>
+    <string name="st_continue">هل أنت متأكد من أنك تريد المتابعة</string>
+    <string name="st_cancelorder_confirmation">تم إلغاء طلبك بنجاح</string>
+    <string name="st_gotoshopping">عودة للتسوق</string>
+    <string name="st_whatnext">ماذا بعد؟</string>
+    <string name="st_callcenter">سيتواصل معك احد ممثلي الشركة</string>
+    <string name="st_order_summary">ملخص الطلب</string>
+    <string name="st_items">العناصر:</string>
+    <string name="st_paymentoption">خيار الدفع</string>
+    <string name="st_paymentcod">الدفع عند الاستلام</string>
+    <string name="st_paymentwallet">استخدم المحفظة</string>
+    <string name="st_deliverytime"> موعد التسليم</string>
+    <string name="st_scheduleorder">جدولة الطلبات</string>
+    <string name="st_morning">صباحاً</string>
+    <string name="st_evening">مساءً</string>
+    <string name="st_anytime">في أي وقت</string>
+    <string name="st_monthly">كل شهر</string>
+    <string name="st_weekly">كل أسبوعين</string>
+    <string name="st_none">مرة واحده</string>
+    <string name="st_schedule_order">جدولة الطلبات</string>
+
+    <string name="st_additems">إضافة عناصر</string>
+    <string name="st_cod">الدفع عند الاستلام</string>
+    <string name="st_usewallet">استخدم المحفظة</string>
+    <string name="st_paymentdetails">خيار الدفع</string>
+    <string name="st_orderitems">طلب بضاعة</string>
+    <string name="st_promocodediscount">قيمة الخصم الترويجي</string>
+    <string name="_string_wallet_discount">خصم التسويق</string>
+
+    <string name="st_grandtotal">المجموع الكلي</string>
+    <string name="st_checkout">الدفع</string>
+
+
+    <string name="st_currentadress">العنوان الحالي</string>
+    <string name="st_recentlypurchased">تم شراؤها مؤخرا</string>
+    <string name="st_mada">مدى</string>
+    <string name="_string_select_payment_method">اختر الدفع الخاص بك</string>
+
+    <!--///////////Changes///////////-->
+    <string name="st_tickets">تذاكري</string>
+    <string name="st_fullname">الاسم(اختياري)</string>
+    <string name="st_fullnamehint">ادخل الاسم</string>
+    <string name="st_email">البريد الالكتروني (اختياري)</string>
+    <string name="st_complaint">نص الشكاوى</string>
+    <string name="st_complainthint">النص</string>
+    <string name="st_listickets">قائمة التذاك</string>
+    <string name="st_addtickets">إضافة تذكرة</string>
+
+    <string name="st_selecticket">اختر الفئة</string>
+    <string name="st_selectcustomer">إختيار موظف خدمة العملاء</string>
+    <string name="st_selecicon">طلب</string>
+    <string name="st_selectservice">إختيار موظف خدمة العملاء</string>
+    <string name="st_batches">رقم الباتش</string>
+    <string name="st_quantity">كمية</string>
+    <string name="st_file">أرفق ملف</string>
+    <string name="st_choose">اختر ملف</string>
+    <string name="st_sku">SKU</string>
+    <string name="st_selectorder">اختر رمز الطلب</string>
+    <string name="st_chooses">أختر</string>
+    <string name="st_takepic">التقاط صورة جديدة</string>
+    <string name="st_fromgallery">اختر من المعرض</string>
+    <string name="st_liketo">هل تريد أن</string>
+    <string name="st_pending">قيد الانتظار</string>
+    <string name="st_complete">مغلق</string>
+    <string name="st_open">في تقدم</string>
+    <string name="st_client">في انتظار العميل</string>
+    <string name="st_delete">تم الحذف</string>
+    <string name="st_no">تذكرة رقم</string>
+    <string name="st_replies">الردود</string>
+
+    <string name="st_name">الاسم</string>
+    <string name="st_ordernumber">رقم الطلب #</string>
+    <string name="st_describecomplaint">وصف الشكوى</string>
+    <string name="st_complaintnumber">نص الشكاوى #</string>
+    <string name="st_created">انشأت</string>
+    <string name="st_lupdated">تحديث</string>
+    <string name="st_case">الحالة</string>
+    <string name="st_title">العنوان</string>
+    <string name="st_attachfile">إرفاق ملف</string>
+    <string name="st_replycomplaint">رد على الشكوى</string>
+    <string name="st_message">رسالة</string>
+    <string name="st_replycomplain">الرد</string>
+    <string name="st_status">الحالة</string>
+    <string name="st_category">الاقسام</string>
+    <string name="st_body">الجسم</string>
+    <string name="st_files">ملف</string>
+    <string name="st_ticketdetail">تذكرة التفاصيل</string>
+    <string name="st_by">بواسطة :</string>
+    <string name="st_replywith">الرد :</string>
+    <string name="st_date">تاريخ :</string>
+    <string name="st_complaints">نص الشكاوى</string>
+    <string name="st_stcmember"> هل أنت عميل تميز في stc؟\n
+    استخدم خصم التميز من stc</string>
+    <string name="st_otp">يرجى إدخال رقم التحقق</string>
+    <string name="otp">رقم التحقق</string>
+    <string name="st_stcmsg">سوف تتلقى OTP من شركة الاتصالات السعودية</string>
+    <string name="st_stctitle">استخدم خصم التميز من stc</string>
+    <string name="st_adresserror">لديك بالفعل طلب مفتوح على العنوان المحدد</string>
+    <string name="st_confirmation">من فضلك ادخل كود الخصم مرة اخرى لان طلبك قد تغير</string>
+    <string name="st_proceed">أكمل بدون رمز الخصم</string>
+     <string name="st_dismiss">أدخل رمز الخصم</string>
+    <string name="st_price_with_vat">الاسعار شاملة ضريبة القيمه المضافة</string>
+    <string name="st_staisfaction_with_representative">مدى رضاكم عن تعامل مندوب التوصيل </string>
+    <string name="st_ratting_experience_with_berain">تقييمكم لتجربتكم مع الجزيرة بشكل كامل</string>
+    <string name="st_submit_feedback">إرسال ملاحظات</string>
+    <string name="st_rating_product_quality">جودة المنتج"</string>
+    <string name="st_rating_man_behavior">مع السائق</string>
+    <string name="st_rating_delivery_time">وقت التوصيل</string>
+    <string name="st_qitaf_rewardpoints">حصلت على </string>
+    <string name="st_qitaf_rewardpoints_points">نقاط</string>
+
+    <string name="st_credit_insufficient_message">برجاء التواصل مع مدير حسابك فى اوجين</string>
+    <string name="st_rating_submitted">تم تقييم الخدمة</string>
+    <string name="st_apply">تفعيل الرمز</string>
+    <string name="st_remove">حذف</string>
+    <string name="st_enter_promo">رمز ترويجي</string>
+
+    <string name="st_points">points</string>
+    <string name="st_hint_user_remarks">هل تود إفادتنا بأي ملاحظة (إختياري)</string>
+    <string name="_string_Remaining">باقي: </string>
+    <string name="st_promotion_dialouge_title">حدد العناصر المجانية</string>
+    <string name="_error_email_invalid">بريد إلكتروني خاطئ</string>
+    <string name="_error_email_unverified">لم يتم التحقق من البريد الالكتروني</string>
+    <string name="_verification_code_sent_to">برجاء ادخال كود التحقق المرسل الى البريد الالكتروني</string>
+
+    <!--more screen-->
+    <string name="_string_profile">الملف الشخصي</string>
+    <string name="_string_personal_info">البيانات الشخصية</string>
+    <string name="_string_address">العنوان</string>
+    <string name="_string_app_language">English</string>
+    <string name="_string_share_app">شارك التطبيق</string>
+    <string name="_string_is_this_stc_number">هل رقمك مسجل فى stc pay</string>
+    <string name="_string_privacy_policy">الشروط والاحكام</string>
+    <string name="_string_please_select_area">يرجى إختيار اسم الحي من القائمة</string>
+    <string name="_string_enter_address_to_load">اختر عنوان لتظهر لك المنتجات</string>
+
+
+    <string name="begin">ابدأ</string>
+    <string name="choose_language">الرجاء اختيار لغتك الافتراضية</string>
+    <string name="settings">إعدادات</string>
+    <string name="account">الحساب</string>
+    <string name="order_items">طلب بضاعة</string>
+    <string name="summary">ملخص</string>
+
+
+    <string name="brows_products">الصفحة الرئيسية</string>
+    <string name="valueable_feedback">شكرا لتواصلك معنا!</string>
+
+    <string name="no_internet_connection">لا يوجد اتصال بالإنترنت</string>
+
+    <string name="cancen_order_surity">هل أنت متأكد أنك تريد إلغاء هذا الطلب؟</string>
+    <string name="cancel_reason">يرجى مشاركة سبب إلغاء طلبك</string>
+    <string name="change_mind_reason"> انا غيرت رأيي</string>
+    <string name="currently_not_available_for_location"> حاليا غير متوفر في مكان محدد</string>
+    <string name="want_to_change_order_details_reasons"> أريد تغيير تفاصيل طلبي</string>
+    <string name="delivery_estimated_time_too_long_cancel_reason"> وقت التسليم المقدر طويل جدًا</string>
+
+
+    <string name="your_order">طلبك</string>
+    <string name="has_been_cancelled">تم إلغاء.</string>
+    <string name="use_coupons">استخدم القسائم</string>
+    <string name="referal">الإحالة</string>
+
+
+
+    <string name="order_num">رقم الأمر</string>
+    <string name="reference_num">رقم المرجع#</string>
+    <string name="your_order_placed">وقد وضعت طلبك!</string>
+    <string name="you_can_track">يمكنك تتبع طلبك من هنا.</string>
+    <string name="go_to_my_orders">اذهب إلى طلباتي</string>
+    <string name="what_happened_next">ماذا حدث بعد ذلك؟</string>
+    <string name="you_will_be_concerned">سيتم الاتصال بك عن طريق دعم العملاء لتأكيد طلبك!</string>
+
+    <string name="close_msg">هل أنت متأكد أنك تريد إغلاق الجزيرة؟</string>
+    <string name="no">لا</string>
+    <string name="enter_four_digit_code_sent_to">أدخل الرمز المكون من 4 أرقام المرسل إلى</string>
+    <string name="see_all">اظهار الكل</string>
+
+
+
+
+
+    <string name="shop">متجر</string>
+    <string name="offers">عروض</string>
+    <string name="our_show_rooms">صالات العرض لدينا</string>
+    <string name="after_sales">خدمات ما بعد البيع</string>
+    <string name="add_new_request">إضافة طلب جديد</string>
+    <string name="share_app">شارك التطبيق</string>
+    <string name="by_categories">حسب الفئات</string>
+    <string name="hot_deals_products">Hot Deals Products</string>
+    <string name="air_condition">تكييف هواء</string>
+    <string name="air_cooling">تبريد الهواء</string>
+    <string name="water_heater">سخان الماء</string>
+    <string name="gas_cooker">طباخ الغاز</string>
+    <string name="water_cooler">مبرد مياه</string>
+    <string name="show_case">عرض</string>
+    <string name="recent_view">طريقة العرض الأخيرة</string>
+
+    <!--Menu Activity-->
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="my_wishlist">قائمة امنياتي</string>
+    <string name="language">لغة</string>
+    <string name="rate_the_app">قيم التطبيق</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="terms_and_conditions">البنود و الظروف</string>
+
+
+    <string name="detail">خاصية التبريد الذكي من خلال أجهزة الاستشعار لاستشعار التبريد الأمثل حول كل شخص في مكان 30000 وحدة حرارية بريطانية داخل الغرفة دفع أقوى للهواء البارد توزيع رباعي للهواء في جميع الاتجاهات فلاتر عالية الكثافة لزيادة فعالية التبريد النقي خاصية التبريد السريع لراحة أفضل</string>
+    <string name="menu">قائمة</string>
+    <string name="st_shipping_charges">رسوم الشحن</string>
+    <string name="fullname">الاسم الكامل</string>
+    <string name="product_type">نوع المنتج</string>
+    <string name="inside_warranty">داخل الضمان</string>
+    <string name="outside_warranty">خارج الضمان</string>
+    <string name="invoice_num">رقم الفاتورة</string>
+    <string name="invoice_date">تاريخ الفاتورة</string>
+    <string name="issue">المشكلة</string>
+    <string name="select_city">اختر مدينة</string>
+    <string name="region">منطقة</string>
+    <string name="problem_description">وصف المشكلة</string>
+    <string name="condition_aljazeriah">
+اوافق على تكلفة الزيارة 100 ريال شاملة الضريبة داخل المدينة غير شامل قطع الغيار في حال ان موقع المنتج خارج المدينة يتم احتساب على كل كيلو 1.05 ريال شامل الضريبة غير شامل قطع الغيار.</string>
+
+
+
+    <string name="product_detail">تفاصيل المنتج</string>
+    <string name="product_sku">رقم المنتج SKU:</string>
+    <string name="color">اللون:</string>
+    <string name="length">الطول:</string>
+    <string name="display">العرض:</string>
+    <string name="height">الارتفاع:</string>
+    <string name="price">السعر:</string>
+    <string name="filter_one">مواصفات (فلتر) 1 :</string>
+    <string name="specification_one">مواصفات 1 :</string>
+    <string name="specification_two">مواصفات 2 :</string>
+    <string name="specification_three">مواصفات 3 :</string>
+    <string name="filter_two">مواصفات (فلتر) 2 :</string>
+    <string name="filter_three">مواصفات (فلتر) 3 :</string>
+
+    <string name="enter_product_type">أدخل نوع المنتج</string>
+    <string name="enter_your_name">أدخل أسمك</string>
+    <string name="enter_invoice_num">أدخل رقم الفاتورة الخاصة بك</string>
+    <string name="enter_invoice_date">أدخل تاريخ الفاتورة</string>
+    <string name="enter_phone_number">أدخل رقم هاتف صالحًا</string>
+    <string name="enter_email">أدخل البريد الإلكتروني الصحيح</string>
+    <string name="enter_title">أدخل العنوان</string>
+    <string name="enter_issue">أضف قضية</string>
+    <string name="enter_city">أدخل اسم المدينة</string>
+    <string name="enter_region">"أدخل اسم المنطقة"</string>
+    <string name="enter_address">أدخل العنوان</string>
+    <string name="enter_problem">وصف المشكلة</string>
+
+    <string name="select_warrenty_type">حدد نوع الضمان</string>
+    <string name="something_went_wrong">حدث خطأ ما. أعد المحاولة من فضلك</string>
+    <string name="no_products_available">لا توجد منتجات متاحة</string>
+    <string name="location_not_found">الموقع غير موجود</string>
+    <string name="location">موقع</string>
+    <string name="timing">المواعيد:</string>
+    <string name="open">افتح</string>
+    <string name="close">أغلق</string>
+    <string name="_string_view_invoice">عرض الفاتورة</string>
+    <string name="_string_track_your_order">أتبع طلبك</string>
+    <string name="_string_notificatio">تنبيه</string>
+    <string name="_string_out_of_stock_message">أعلمني عندما يكون المخزون متاحًا</string>
+    <string name="_string_data_sheet">ورقة البيانات</string>
+    <string name="_string_Youtu_video">وفيديوهات اليوتيوب</string>
+    <string name="_string_maintinences">طلب صيانة</string>
+    <string name="_string_description">وصف</string>
+    <string name="_string_complaint_id">"معرف الشكوى"</string>
+    <string name="_string_ticket_id">"معرف التذكرة "</string>
+    <string name="_string_complaint_date">"تم إنشاء الشكوى"</string>
+    <string name="_string_type">يكتب</string>
+    <string name="_string_invoice_num">الفاتورة الخاصة</string>
+    <string name="_string_title">لقب</string>
+    <string name="_string_my_returns">طلب ارجاع</string>
+    <string name="_string_aftersales_returns">طلب ارجاع</string>
+    <string name="_string_return_id">معرف العودة</string>
+    <string name="best_seller">الأكثر مبيعا</string>
+    <string name="choose_city">اختر المدينة</string>
+    <string name="account_title">عنوان الحساب:</string>
+    <string name="account_number">رقم حساب:</string>
+    <string name="iban">رقم الحساب المصرفي الدولي :</string>
+    <string name="compare_products">قارن بين المنتجات</string>
+    <string name="weight">وزن</string>
+    <string name="subscribe_al_jazirah_news">هل تريد الاشتراك في جريدة الجزيرة؟</string>
+    <string name="please_select_bank">الرجاء تحديد البنك الذي تتعامل معه</string>
+    <string name="no_products_to_show">لا توجد منتجات لعرضها.</string>
+    <string name="no_filter">لا يوجد مرشح</string>
+    <string name="facebook">موقع التواصل الاجتماعي الفيسبوك</string>
+    <string name="instagram">الانستغرام</string>
+    <string name="twitter">تويتر</string>
+    <string name="snapchat">سناب شات</string>
+    <string name="version">Version</string>
+    <string name="pages">الصفحات</string>
+    <string name="upload_payment_receipt">قم بتحميل إيصال الدفع</string>
+    <string name="allow_all_permissions">يرجى السماح بالأذونات</string>
+    <string name="want_to_upload">الرجاء تأكيد الصورة!</string>
+    <string name="select_image">حدد إيصال الدفع</string>
+    <string name="please_select_img">الرجاء تحديد الصورة</string>
+    <string name="st_payment_pending">قيد الانتظار</string>
+    <string name="image_removed">تمت إزالة الصورة بنجاح</string>
+    <string name="image_not_removed">لم تتم إزالة الصورة</string>
+    <string name="st_category_heading">فئات:</string>
+    <string name="sub_category">اسم الفئة الفرعية</string>
+    <string name="select_category">اختر الفئة</string>
+    <string name="warranty">ضمان</string>
+    <string name="_string_service_slot">وقت الحجز:</string>
+    <string name="order_id">Order ID:</string>
+    <string name="request_submitted_successfully">تم تقديم الطلب بنجاح.</string>
+    <string name="promotional_discount">خصم ترويجي</string>
+
+</resources>

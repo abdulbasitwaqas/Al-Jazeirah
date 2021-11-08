@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.app.aljazierah.ui.fragment.AddressFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/add_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/begin_button"
+            android:minHeight="@dimen/fifty_dp"
+            android:includeFontPadding="false"
+            android:text="@string/add_new_address"
+            android:fontFamily="@font/gulf_regular"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

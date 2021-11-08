@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tvReturns"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/btn_selector"
+            android:fontFamily="@font/gulf_regular"
+            android:includeFontPadding="false"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/_string_aftersales_returns"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvOrderSummeryOD"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/btn_selector"
+            android:fontFamily="@font/gulf_regular"
+            android:includeFontPadding="false"
+            android:gravity="center"
+            android:padding="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/st_order_summary"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/rattingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_delivered" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/gulf_regular"
+            android:includeFontPadding="false"
+            android:gravity="center_horizontal"
+            android:padding="12dp"
+            android:text="@string/st_orderarrived"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/ic_blue_line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/gulf_regular"
+            android:gravity="center_horizontal"
+            android:includeFontPadding="false"
+            android:padding="5dp"
+            android:text="@string/st_thankyou"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_please_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/gulf_regular"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+
+            android:includeFontPadding="false"
+            android:text="@string/st_rateorder"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/ratingview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layoutProductQuality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/gulf_regular"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:paddingStart="7dp"
+                    android:text="@string/st_rating_product_quality"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <!--            <com.iarcuschin.simpleratingbar.SimpleRatingBar
+                                android:id="@+id/layout_order_delivered_retingProductQuality"
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:isIndicator="true"
+                                android:max="5"
+                                android:numStars="5"
+                                android:layout_gravity="center"
+                                app:fillColor="#fff"
+                                app:borderColor="#fff"
+                                android:rating="5"
+                                android:stepSize="1.0"
+                                app:starSize="17dp"/>-->
+
+                <RatingBar
+                    android:id="@+id/layout_order_delivered_retingProductQuality"
+                    style="?android:attr/ratingBarStyleIndicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:isIndicator="false"
+                    android:numStars="5"
+
+                    android:progressTint="@color/colorPrimary"
+                    android:rating="0"
+                    android:stepSize="1.0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tvDevliveryMan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/gulf_regular"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:paddingStart="7dp"
+                    android:text="@string/st_rating_man_behavior"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+
+                <!--
+                            <com.iarcuschin.simpleratingbar.SimpleRatingBar
+                                android:id="@+id/retingDeliveryMan"
+                                style="?android:attr/ratingBarStyleIndicator"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:isIndicator="true"
+                                android:max="5"
+                                android:numStars="5"
+                                android:layout_gravity="center"
+                                app:fillColor="#fff"
+                                app:borderColor="#fff"
+                                android:rating="5"
+                                android:stepSize="1.0"
+                                app:starSize="17dp"/>-->
+
+                <RatingBar
+                    android:id="@+id/retingDeliveryMan"
+                    style="?android:attr/ratingBarStyleIndicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:isIndicator="false"
+                    android:numStars="5"
+                    android:progressTint="@color/colorPrimary"
+                    android:rating="0"
+                    android:stepSize="1.0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tvDevliveryTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/gulf_regular"
+                    android:gravity="center"
+                    android:paddingStart="7dp"
+                    android:text="@string/st_rating_delivery_time"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+
+                <!--            <com.iarcuschin.simpleratingbar.SimpleRatingBar
+                                android:id="@+id/layout_order_delivered_retingDeliveryTime"
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:isIndicator="true"
+                                android:max="5"
+                                android:numStars="5"
+                                android:layout_gravity="center"
+                                app:fillColor="#fff"
+                                app:borderColor="#fff"
+                                android:rating="5"
+                                android:stepSize="1.0"
+                                app:starSize="17dp"/>-->
+
+
+                <RatingBar
+                    android:id="@+id/layout_order_delivered_retingDeliveryTime"
+                    style="?android:attr/ratingBarStyleIndicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:isIndicator="false"
+                    android:numStars="5"
+                    android:progressTint="@color/colorPrimary"
+                    android:rating="0"
+                    android:stepSize="1.0" />
+
+                <EditText
+                    android:id="@+id/editUserRemarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:gravity="top|left"
+                    android:includeFontPadding="false"
+                    android:fontFamily="@font/gulf_regular"
+                    android:hint="@string/st_hint_user_remarks"
+                    android:lines="3"
+                    android:maxLength="500"
+                    android:padding="12dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:id="@+id/OrderItemsRatingRecyclerView"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/tvSubmitRating"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/begin_button"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/gulf_regular"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+
+        <LinearLayout
+            android:id="@+id/layoutQitaf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:visibility="visible">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/gulf_regular"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/st_qitaf_rewardpoints"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_qitaf_rewardpoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawableRight="@drawable/ic_qitaf_logo"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text=""
+                android:includeFontPadding="false"
+                android:fontFamily="@font/gulf_regular"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/afterFeedBackLL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_thumb_up" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/gulf_bold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/valueable_feedback"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+
+        <Button
+            android:id="@+id/browseProductsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/begin_button"
+            android:fontFamily="@font/gulf_bold"
+            android:text="@string/brows_products"
+            android:includeFontPadding="false"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/tvOrderSummery"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:visibility="visible"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="40dp"
+            android:includeFontPadding="false"
+            android:background="@drawable/begin_button"
+            android:fontFamily="@font/gulf_regular"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:paddingStart="16dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="6dp"
+            android:text="@string/st_order_summary"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

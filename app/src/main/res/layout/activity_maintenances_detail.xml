@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.SingleProductDetailActivity">
+
+    <include
+        android:id="@+id/include3"
+        layout="@layout/toolbar_homescreen_activity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvComplaintNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:text=" "
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/tvComplaintId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:drawablePadding="5dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/tvWarrenty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/tvCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/tvServiceSlot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:text="@string/_string_service_slot"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+        <TextView
+                android:id="@+id/tvFull_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+        <TextView
+                android:id="@+id/tvproduct_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+        <TextView
+                android:id="@+id/tvIssue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+
+        <TextView
+                android:id="@+id/tvInvoice_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+
+
+        <TextView
+                android:id="@+id/tvInvoice_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+
+
+
+
+        <TextView
+                android:id="@+id/tvMobile_Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+        <TextView
+                android:id="@+id/tvemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+
+        <TextView
+                android:id="@+id/tvRegion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+
+
+        <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+
+        <TextView
+                android:id="@+id/tvProblem_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

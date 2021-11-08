@@ -1,0 +1,246 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    >
+
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-54dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="54dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/locationview"
+                android:layout_marginTop="10dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/textview_locations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:fontFamily="@font/gulf_regular"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+
+
+            <include layout="@layout/orderdetailcirclecheckview"/>
+
+            <LinearLayout
+                android:id="@+id/orderdetail_llOrderID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/tvOrderID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/gulf_regular"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="left"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/gulf_regular"
+                    android:visibility="gone"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/cancel"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/orderItemsTVCA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/order_items"
+                android:textColor="@color/text_color"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gulf_regular"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/orderdetailItemsList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                tools:itemCount="1"
+                android:visibility="visible"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/st_promotion_dialouge_title"
+                android:gravity="center"
+                android:id="@+id/tv_free_group_promotion"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/gulf_regular"
+                android:drawableLeft="@drawable/ic_gift_icon"
+                android:padding="5dp"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/st_additems"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/activity_order_detailed_btn_additems"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/gulf_regular"
+                android:background="@drawable/begin_button"
+                android:layout_gravity="center"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="6dp"/>
+
+
+
+
+            <include layout="@layout/paymentoptionsview" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/banksRV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:visibility="gone"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="6dp"/>
+
+            <include layout="@layout/deliveryaddressview"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="6dp"/>
+            <include layout="@layout/deliverytimeview"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="6dp"/>
+            <include layout="@layout/schedleview"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:visibility="gone"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/st_stctitle"
+                android:textColor="@color/text_color"
+                android:textSize="16dp"
+                android:fontFamily="@font/gulf_bold"
+                android:visibility="gone"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textview_stctitle" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:id="@+id/view_stcline"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:background="@color/tab_selected"
+                android:layout_below="@+id/textview_payment_head"
+                />
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview_payment_head"
+                android:id="@+id/rb_stc"
+                android:textColor="@color/text_color"
+                android:backgroundTint="@color/tab_selected"
+                android:text="@string/st_stcmember"
+                android:fontFamily="@font/gulf_regular"
+                android:drawableLeft="@drawable/ic_stc"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:drawablePadding="5dp"
+                android:visibility="gone"/>
+            <include layout="@layout/promoview"
+                />
+            <View
+                android:id="@+id/promoBelowLine"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="12dp"/>
+            <include layout="@layout/stc_tamayouz_view" />
+
+            <View
+                android:id="@+id/otpBelowLine"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"/>
+            <include layout="@layout/refferalview" />
+
+
+
+            <include layout="@layout/paymentdetailsview" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_homescreen_activity1" />
+
+</RelativeLayout>

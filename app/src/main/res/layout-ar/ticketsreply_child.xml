@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="5dp"
+
+    >
+
+    <TextView
+        android:id="@+id/label_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st_by"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimary"
+
+
+        />
+
+    <TextView
+        android:id="@+id/tv_by"
+        android:layout_toEndOf="@+id/label_by"
+        android:layout_toStartOf="@+id/label_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimary"
+
+
+        />
+
+    <TextView
+        android:layout_below="@+id/label_by"
+        android:id="@+id/label_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/st_replywith"/>
+
+    <TextView
+        android:layout_below="@+id/label_by"
+        android:id="@+id/tv_reply"
+        android:layout_toEndOf="@+id/label_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimary"
+        android:text=""/>
+
+    <TextView
+
+        android:id="@+id/label_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/tv_date"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/st_date"/>
+
+    <TextView
+        android:layout_alignParentEnd="true"
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:alpha="0.5"
+        android:text="2019-05-06 13:33:10"/>
+
+    <TextView
+        android:layout_below="@+id/tv_reply"
+        android:id="@+id/label_file"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimary"
+        android:text=""/>
+
+    <TextView
+        android:layout_below="@+id/tv_reply"
+        android:id="@+id/tv_file"
+        android:layout_toEndOf="@+id/label_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:textColor="#0000EE"
+        android:text=""/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/tab_selected"
+        android:layout_below="@+id/tv_file"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+</RelativeLayout>

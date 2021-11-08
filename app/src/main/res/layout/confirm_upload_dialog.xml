@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+    android:background="@drawable/btn_selector_white"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_field"
+        android:text="@string/want_to_upload"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_bold"
+        android:alpha="0.4"
+        android:layout_margin="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color"/>
+
+
+    <LinearLayout
+        android:id="@+id/clicksLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/label_field">
+
+        <Button
+            android:id="@+id/yesUpload"
+            android:text="@string/yes"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/begin_button"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false"
+           android:layout_margin="4dp"
+
+            />
+
+        <Button
+            android:id="@+id/noUpload"
+            android:layout_below="@+id/take_pic"
+            android:text="@string/no"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/begin_button"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false"
+            android:layout_margin="4dp"
+           />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

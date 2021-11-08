@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/tab_selector">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        >
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flw"
+
+            android:layout_marginLeft="-4.5dp"
+            android:alpha="0.3"
+            android:visibility="visible"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back_btn"
+            android:id="@+id/toolbar_with_done_ivBack"
+            android:padding="8dp"
+            android:visibility="visible"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:includeFontPadding="false"
+            android:gravity="center"
+            android:id="@+id/toolbar_with_done_tvTitle"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_light"
+            android:maxWidth="250dp"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/toolbar_with_done_tvDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="7dp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

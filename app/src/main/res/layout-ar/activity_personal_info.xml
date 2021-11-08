@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+
+    <include layout="@layout/toolbar_homescreen_activity"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="الاسم"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/gulf_regular"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gulf_regular"
+                android:text=")اختياري("/>
+        </LinearLayout>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/border_edittext_blue"
+            android:hint="ادخل الاسم "
+            android:fontFamily="@font/gulf_regular"
+            android:paddingStart="11dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="11dp"
+            android:paddingBottom="7dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="رقم الهاتف"
+            android:fontFamily="@font/gulf_regular"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/border_edittext_blue"
+            android:gravity="start"
+            android:hint="+966 126 55 475"
+            android:fontFamily="@font/gulf_regular"
+            android:paddingStart="11dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="11dp"
+            android:paddingBottom="7dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="البريد الالكتروني"
+                android:fontFamily="@font/gulf_regular"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gulf_regular"
+                android:text=")اختياري("/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/border_edittext_blue"
+            android:hint="user@email.com"
+            android:fontFamily="@font/gulf_regular"
+            android:paddingStart="11dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="11dp"
+            android:paddingBottom="7dp"
+            android:textAlignment="textEnd" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/begin_button"
+            android:text="تعديل البيانات"
+            android:textAllCaps="false"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="18sp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

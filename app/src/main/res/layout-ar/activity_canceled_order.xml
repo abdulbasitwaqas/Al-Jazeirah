@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CanceledOrder">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_homescreen_activity1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/include"
+        android:layout_marginTop="-55dp"
+        android:paddingTop="55dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/canceledOrder_ivSuccess"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/ic_check_circle" />
+
+            <TextView
+                android:id="@+id/canceledOrder_tvOrderPlaced"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="24sp"
+                android:fontFamily="@font/gulf_regular"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/browseProductsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/brows_products"
+                android:includeFontPadding="false"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/gulf_regular"
+                android:background="@drawable/begin_button"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginTop="24sp"/>
+
+
+            <Button
+                android:id="@+id/myOrdersBtn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/my_order"
+                android:includeFontPadding="false"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/gulf_regular"
+                android:background="@drawable/begin_button"
+                android:layout_marginStart="80dp"
+                android:layout_marginEnd="80dp"/>
+
+            <Button
+                android:id="@+id/canceledOrder_btnMyOrders"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/gulf_regular"
+                android:background="@drawable/btn_additems"
+                android:text="@string/st_gotoshopping"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/canceledOrder_tvwhatNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/st_whatnext"
+                android:textAlignment="center"
+                android:fontFamily="@font/gulf_regular"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:visibility="gone"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/canceledOrder_ivSMS"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_phone" />
+
+            <TextView
+                android:id="@+id/canceledOrder_tvSms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/gulf_regular"
+                android:text="@string/st_callcenter"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

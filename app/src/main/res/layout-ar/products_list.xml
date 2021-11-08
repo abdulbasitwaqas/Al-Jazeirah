@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/home_adapter_bg">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/productListCL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="?selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ImageView
+            android:id="@+id/productIV"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:id="@+id/llProductList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/productIV"
+            app:layout_constraintStart_toStartOf="@+id/productIV"
+            app:layout_constraintTop_toBottomOf="@+id/productIV"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/tvProductDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:fontFamily="@font/gulf_regular"
+                android:gravity="center_horizontal"
+                android:textColor="@color/plastic_cat_color"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageGiftInfo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_promotion_info"
+                android:visibility="visible" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvProductTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lineview"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/gulf_regular"
+            android:gravity="center"
+            android:text="Category Name"
+            android:includeFontPadding="false"
+            android:textColor="@color/plastic_cat_color"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/productIV"
+            app:layout_constraintStart_toStartOf="@+id/productIV"
+            app:layout_constraintTop_toBottomOf="@+id/llProductList"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tvProductTitle"
+            app:layout_constraintStart_toStartOf="@+id/tvProductTitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvProductTitle"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:id="@+id/priceview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:id="@+id/tv_before_sr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="2dp"
+                    android:fontFamily="@font/gulf_regular"
+                    android:text="@string/currency"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvBeforePrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="6dp"
+                    android:fontFamily="@font/gulf_regular"
+                    android:text="199"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/tv_sr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:fontFamily="@font/gulf_regular"
+                    android:text="@string/currency"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/tvProductPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gulf_regular"
+                    android:text="199"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutPromotions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/iv_cart_gift"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/tvPromotionFreeItems"
+                        android:src="@drawable/ic_gift_icon" />
+
+                    <TextView
+                        android:id="@+id/tvPromotionFreeItems"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:fontFamily="@font/gulf_regular"
+                        android:text=""
+                        android:textColor="@color/text_color"
+                        android:textSize="13dp" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvPromotionRemainingItems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/gulf_regular"
+                    android:gravity="right"
+                    android:text="0"
+
+                    android:textColor="@color/text_color"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

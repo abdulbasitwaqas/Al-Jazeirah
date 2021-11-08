@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="280dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_layout"
+    android:gravity="center"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_dialog"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_busy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Select Your Payment"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_mada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rb_sadad"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:button="@drawable/radio_btn_blue"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingLeft="2dp"
+            android:text="@string/st_mada"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="15dp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_sadad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButtonWallet"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:button="@drawable/radio_btn_blue"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingLeft="2dp"
+            android:text="SADAD"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="15dp" />
+
+        <RadioButton
+
+            android:id="@+id/rb_cd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rb_cod"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:button="@drawable/radio_btn_blue"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingLeft="2dp"
+            android:text="Credit Card"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rb_cod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_busy"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:button="@drawable/radio_btn_blue"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingLeft="2dp"
+            android:text="Cash on Delivery"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="15dp" />
+
+
+        <RadioButton
+            android:id="@+id/radioButtonWallet"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rb_cd"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginTop="10dp"
+            android:button="@drawable/radio_btn_blue"
+            android:drawablePadding="5dp"
+            android:paddingLeft="2dp"
+            android:text="Wallet"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

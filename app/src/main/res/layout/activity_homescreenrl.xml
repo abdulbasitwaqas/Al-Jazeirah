@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/bottomSheet">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/include3"
+            android:layout_marginTop="-54dp"
+            android:layout_height="match_parent">
+
+            <com.app.aljazierah.utils.CustomViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                 />
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <include layout="@layout/tab_buttons_home" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <include
+            android:id="@+id/include3"
+            layout="@layout/toolbar_homescreen_activity1"
+            android:layout_width="match_parent"
+            android:layout_height="125dp" />
+
+    </RelativeLayout>
+
+
+
+
+</com.flipboard.bottomsheet.BottomSheetLayout>

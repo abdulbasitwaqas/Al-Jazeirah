@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/background_payment_method_green"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text=""
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:padding="20dp"
+            android:textColor="@color/text_color"
+            android:id="@+id/tvTitle"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:id="@+id/listViewChoosePayment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:scrollbars="none"
+            android:divider="@color/colorPrimary"
+            android:layout_marginBottom="15dp"
+            tools:listitem="@layout/model_choose_city_area"
+            android:dividerHeight="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

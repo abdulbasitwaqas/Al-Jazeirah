@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/paymentDetailView"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/summary"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:padding="6dp"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/roboto_regular"
+        android:id="@+id/textview_promocode_head"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:padding="6dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/ic_blue_line_border"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/total_view">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/st_orderitems"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:layout_margin="4dp"
+                android:id="@+id/textview_orderitems"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:gravity="left"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_margin="4dp"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textview_orderitemsvalue"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/total_view"
+            android:id="@+id/layoutPromocodeB"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/st_promocodediscount"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="4dp"
+                android:id="@+id/tvPromocodeB"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:gravity="left"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="4dp"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:id="@+id/tvPromocodeValueB"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/total_view"
+            android:id="@+id/shippingLL"
+            android:visibility="visible"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvShipping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/st_shipping_charges"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvShippingCharges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:gravity="left"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="4dp"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutWalletDiscount"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_string_wallet_discount"
+                android:textColor="@color/text_color"
+                android:textSize="16dp"
+                android:fontFamily="@font/roboto_regular"
+
+                android:layout_margin="4dp"
+                android:id="@+id/tvWalletDiscount"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="left"
+
+                android:layout_margin="4dp"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/tvWalletDiscountValue"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/beforeVATLL"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/promotional_discount"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:layout_margin="4dp"
+                android:id="@+id/beforeVATHeader"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:fontFamily="@font/roboto_regular"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:gravity="left"
+
+                android:layout_toRightOf="@+id/textview_vat"
+                android:textColor="@color/text_color"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/beforeVATTV"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vat_view"
+            android:orientation="horizontal"
+            >
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vat"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:layout_margin="4dp"
+                android:id="@+id/textview_vat"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:fontFamily="@font/roboto_regular"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:gravity="left"
+
+                android:layout_toRightOf="@+id/textview_vat"
+                android:textColor="@color/text_color"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textview_vatvalue"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/afterVATLL"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/promotional_discount"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:layout_margin="4dp"
+                android:id="@+id/afterVATHeader"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:fontFamily="@font/roboto_regular"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:gravity="left"
+
+                android:layout_toRightOf="@+id/textview_vat"
+                android:textColor="@color/text_color"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/afterVATTV"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/total_view"
+            android:id="@+id/layoutPromocodeA"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/st_promocodediscount"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_margin="4dp"
+                android:id="@+id/tvPromocodeA"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:gravity="left"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/text_color"
+                android:textSize="16dp"
+                android:layout_margin="4dp"
+                android:id="@+id/tvPromocodeValueA"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wallet_view"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/st_wallet"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:id="@+id/textview_wallet"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="left"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_weight="1"
+                android:layout_toRightOf="@+id/textview_wallet"
+                android:textColor="@color/text_color"
+                android:textSize="16dp"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textview_walletvalue"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/ic_blue_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/grandtotal_view"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/st_grandtotal"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:id="@+id/textview_total"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:gravity="left"
+                android:layout_margin="4dp"
+                android:layout_toRightOf="@+id/textview_total"
+                android:textColor="@color/text_color"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textview_totalvalue"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activity_order_detailed_btn_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/st_checkout"
+        android:textSize="18sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:background="@drawable/begin_button"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto_regular"
+        />
+
+
+</LinearLayout>

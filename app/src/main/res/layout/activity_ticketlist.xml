@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e3e3"
+    android:orientation="vertical">
+
+    <include
+
+        layout="@layout/toolbar_homescreen_activity" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tickets_listview"
+        android:dividerHeight="10dp"
+        android:divider="@color/transparent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/toolbar">
+
+    </ListView>
+
+
+</RelativeLayout>

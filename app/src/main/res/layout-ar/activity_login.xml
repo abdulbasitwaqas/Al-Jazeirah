@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/appLogoLA"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:background="@drawable/app_icon"
+     android:layout_gravity="center" />
+
+
+    <LinearLayout
+        android:id="@+id/layoutHomeUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+ >
+
+        <TextView
+            android:id="@+id/tvHomeUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gulf_regular"
+            android:text="@string/login"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textSize="22sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/gulf_regular"
+            android:text="@string/to_proceed_to_check_out_please_enter_your_phone_number"
+            android:textColor="@color/text_color"
+            android:gravity="center"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="@string/we_will_send_you_one_time_sms_message"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/loginview"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/login_et_bg"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtPhoneNumber"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/codeTVLA"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:background="@color/transparent"
+                android:fontFamily="@font/gulf_regular"
+                android:gravity="left|center"
+                android:hint="@string/enter_your_number"
+                android:inputType="number"
+                android:maxLength="12"
+                android:paddingStart="11dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="11dp"
+                android:paddingBottom="5dp"
+                android:textDirection="ltr"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/grey_dark"/>
+            <TextView
+                android:id="@+id/codeTVLA"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/login_number_bg"
+                android:fontFamily="@font/gulf_regular"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:text="+966"
+                android:textDirection="ltr"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonVerify"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:includeFontPadding="false"
+            android:background="@drawable/begin_button"
+            android:fontFamily="@font/gulf_regular"
+            android:text="@string/proceed"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/tvLoginasCorporateUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/gulf_regular"
+            android:padding="10dp"
+            android:text="@string/_string_login_as_corporate_user"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/layoutQitaf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <TextView
+                android:id="@+id/tv_stc_qitaf_msg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawableRight="@drawable/ic_qitaf_logo"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/text_purple"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tv_stc_qitaf_msg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/gulf_regular"
+                android:gravity="center"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/text_purple"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutCorporateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appLogoLA"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_string_corporate_user"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textSize="20sp"
+            android:fontFamily="@font/gulf_regular" />
+
+
+        <EditText
+            android:id="@+id/editUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:autofillHints=""
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/gulf_regular"
+            android:hint="@string/_string_user_name"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:text=""
+            android:gravity="right"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/editUserPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/gulf_regular"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/grey"
+            android:text=""
+            android:gravity="right"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/begin_button"
+            android:text="@string/login"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/gulf_regular"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:id="@+id/tvLoginasHomeUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="@string/_string_login_as_home_user"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textSize="14sp"
+            android:fontFamily="@font/gulf_regular" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

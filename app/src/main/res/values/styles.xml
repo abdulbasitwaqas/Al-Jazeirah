@@ -1,0 +1,155 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+<!--
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:dropDownListViewStyle">@style/SpinnerStyle</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+    </style>
+-->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/gulf_regular</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/gulf_regular</item>
+    </style>
+
+
+    <style name="TextLabel" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="SpinnerStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">@color/black</item>
+        <item name="android:dividerHeight">0.5dp</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Background for the search query section (e.g. EditText) -->
+        <item name="queryBackground">@color/colorPrimary</item>
+        <!-- Background for the actions section (e.g. voice, submit) -->
+        <item name="submitBackground">@color/colorPrimary</item>
+        <!-- Close button icon -->
+        <!--<item name="closeIcon">@drawable/back_button_eng</item>-->
+        <!-- Search button icon -->
+        <!--<item name="searchIcon">@drawable/ic_search</item>-->
+        <!-- Go/commit button icon -->
+        <!--<item name="goIcon">@drawable/man_icon</item>-->
+    </style>
+
+    <style name="MyThemeOverlay.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+        <item name="homeAsUpIndicator">@color/transparent</item>
+    </style>
+
+
+
+    <style name="editTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/off_black</item>
+        <item name="colorAccent">@color/off_black</item>
+        <item name="android:textColorHint">@color/off_black</item>
+        <item name="colorControlActivated">@color/off_black</item>
+        <item name="colorControlHighlight">@color/off_black</item>
+    </style>
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">12dp</item>
+
+    </style>
+
+    <style name="MyTabLayoutTextAppearanceProducts" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">15dp</item>
+
+    </style>
+
+
+
+    <style name="NewCheckoutTheme" parent="Theme.Checkout.Light">
+        <item name="headerBackground">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="cancelButtonTintColor">@android:color/black</item>
+        <item name="listMarkTintColor">@color/colorPrimary</item>
+        <item name="cameraTintColor">@color/colorPrimary</item>
+        <item name="checkboxButtonTintColor">@color/colorPrimary</item>
+        <item name="checkoutProgressTextViewStyle">@color/colorPrimary</item>
+        <item name="checkoutButtonStyle">@style/NewCheckoutTheme.Button</item>
+        <item name="editTextColor">@color/black</item>
+        <item name="paymentMethodListItemSelector">@drawable/checkout_list_item_selector</item>
+
+    </style>
+
+
+    <style name="NewCheckoutTheme.Button" parent="Checkout.Button.Light">
+        <item name="android:background">@color/colorPrimary</item>
+
+    </style>
+
+
+
+    <!-- Animation for dialog box -->
+    <style name="DialogSlideAnim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+    </style>
+
+<!--
+    <style name="switchStyle" parent="Theme.AppCompat.Light">
+        &lt;!&ndash; active thumb & track color (30% transparency) &ndash;&gt;
+        <item name="colorControlActivated">@color/white</item>
+
+        &lt;!&ndash; inactive thumb color &ndash;&gt;
+        <item name="colorSwitchThumbNormal">@color/white
+        </item>
+
+        &lt;!&ndash; inactive track color (30% transparency) &ndash;&gt;
+        <item name="android:colorForeground">@color/colorPrimaryDark
+        </item>
+    </style>-->
+
+
+</resources>

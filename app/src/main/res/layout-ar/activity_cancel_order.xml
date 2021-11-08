@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CancelOrder">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
+            <include layout="@layout/toolbar_homescreen_activity1"
+                android:id="@+id/toolbar"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toolbar"
+                android:paddingTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/textwhy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:includeFontPadding="false"
+                    android:text="@string/cancel_reason"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="right"
+                    android:fontFamily="@font/gulf_regular"
+                    android:textColor="@color/text_color"
+                    android:textSize="18sp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/options_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textwhy"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+
+                <RadioGroup
+                    android:id="@+id/radioRefundGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:orientation="vertical"
+                    android:layout_below="@id/options_list"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/radio_refund_to_wallet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/st_refund_to_wallet"
+                        android:textColor="@color/text_color"
+                        android:checked="true"
+                        android:gravity="right"
+                        android:includeFontPadding="false"
+                        android:fontFamily="@font/gulf_regular"
+                        android:padding="8dp"
+                        android:button="@drawable/custom_radio_button_selector"
+                        android:layout_marginStart="16dp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_refund_to_bank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="right"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/text_color"
+                        android:fontFamily="@font/gulf_regular"
+                        android:button="@drawable/custom_radio_button_selector"
+                        android:text="@string/st_refund_to_bank"
+                        android:layout_marginStart="16dp"/>
+
+                </RadioGroup>
+
+
+
+                <TextView
+                    android:id="@+id/areYouSureTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/radioRefundGroup"
+                    android:textColor="@color/text_color"
+                    android:textSize="24sp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/gulf_regular"
+                    android:text="@string/cancen_order_surity"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@id/areYouSureTV">
+
+
+                    <Button
+                        android:id="@+id/cancelOrder_btnSubmit"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_below="@id/areYouSureTV"
+                        android:layout_marginStart="24sp"
+                        android:layout_marginEnd="24sp"
+                        android:background="@drawable/begin_button"
+                        android:text="@string/proceed"
+                        android:fontFamily="@font/gulf_regular"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/cancelOrderBtnCA"
+                        android:layout_width="0dp"
+                        android:layout_marginStart="24sp"
+                        android:layout_marginEnd="24sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/begin_button"
+                        android:text="@string/cancel"
+                        android:fontFamily="@font/gulf_regular"
+                        android:textColor="@color/white"
+                        />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

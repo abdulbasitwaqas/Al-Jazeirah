@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/roboto_regular"
+        android:padding="5dp"
+        android:text="@string/st_order_summary"
+        android:textColor="@color/text_color"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tv_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_regular"
+        android:padding="5dp"
+        android:text="@string/st_items"
+        android:textColor="@color/text_color"
+        android:textSize="16sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/orderSummaryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="11dp"
+        tools:itemCount="2"
+        tools:listitem="@layout/si_recycler_order_summary" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_paymentoptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="5dp"
+            android:text="@string/st_paymentoption"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/orderSummarytvPaymentType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/st_paymentcod"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/layout_order_summary_tvUseWallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/st_paymentwallet"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_da"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="5dp"
+            android:text="@string/delivery_address"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/layout_order_summary_tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="left|center_vertical"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="5dp"
+            android:text="@string/st_deliverytime"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/layout_order_summary_tvDeliveryTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Evening"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/layoutScheduleOrder"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_so"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="5dp"
+            android:text="@string/st_scheduleorder"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/layout_order_summary_tvScheduleOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingBottom="8dp"
+            android:text="Every Month"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

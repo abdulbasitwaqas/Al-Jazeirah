@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="wrap_content">
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tvToolbarTitleTCA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="0dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginBottom="5dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:fontFamily="@font/gulf_regular"
+            android:text="@string/logout"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imageViewBackButton"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="4dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="@mipmap/back_btn"
+            android:backgroundTint="@color/white"
+            android:visibility="gone" />
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textview_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/relativeLayout"
+        android:drawableLeft="@drawable/locationicon"
+        android:drawablePadding="7dp"
+        android:gravity="left|center_vertical"
+        android:padding="5dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="40dp"
+        android:singleLine="true"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+
+</RelativeLayout>

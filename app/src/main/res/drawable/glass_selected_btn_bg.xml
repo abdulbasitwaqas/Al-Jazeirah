@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/transparent"/>
+    <item android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <size android:height="3dp"/>
+            <solid android:color="@color/tab_selected"/>
+        </shape>
+    </item>
+</layer-list>

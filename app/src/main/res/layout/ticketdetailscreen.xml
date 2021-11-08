@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e4e4">
+    <include layout="@layout/toolbar_homescreen_activity1"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_home_products"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+
+            >
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/viewdetails"
+             android:padding="10dp"
+             android:background="@drawable/btn_selector_white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/st_no"
+            android:id="@+id/label_no"
+            android:textSize="14dp"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/tv_no"
+                android:layout_toEndOf="@+id/label_no"
+                android:layout_toStartOf="@+id/label_status"
+                android:textSize="14dp"
+                android:text="kmfksdmfdksmdsk"
+                android:textColor="@color/colorPrimary"
+
+                />
+
+            <TextView
+                android:id="@+id/label_status"
+                android:layout_toStartOf="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/st_status"
+                android:textSize="14dp"
+                android:textColor="@color/colorPrimary"
+
+                />
+
+             <TextView
+                 android:id="@+id/tv_status"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentEnd="true"
+                 android:layout_marginStart="10dp"
+
+
+
+
+                 android:textColor="@color/colorPrimary"
+                 android:textSize="14dp"/>
+
+
+
+            <TextView
+                android:id="@+id/tv_category"
+                android:layout_below="@+id/label_no"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="14dp"
+                android:text="fdsfdsdsds"
+                android:layout_toStartOf="@+id/label_replies"
+                android:textColor="@color/colorPrimary"
+
+                />
+
+             <TextView
+                 android:id="@+id/label_created"
+                 android:layout_below="@+id/tv_category"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:text="@string/st_created"
+                 android:textSize="14dp"
+
+                 android:textColor="@color/colorPrimary"
+                 />
+
+             <TextView
+                 android:id="@+id/tv_created"
+                 android:layout_below="@+id/tv_category"
+                 android:layout_toEndOf="@+id/label_created"
+
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:textSize="14dp"
+
+
+                 android:textColor="@color/colorPrimary"
+                 />
+             <TextView
+                 android:id="@+id/label_lupdated"
+                 android:layout_below="@+id/tv_category"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:layout_toStartOf="@+id/tv_lupdated"
+                 android:text="@string/st_lupdated"
+                 android:textSize="14dp"
+
+                 android:textColor="@color/colorPrimary"
+                 />
+
+             <TextView
+                 android:id="@+id/tv_lupdated"
+                 android:layout_below="@+id/tv_category"
+                 android:layout_alignParentEnd="true"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:textSize="14dp"
+                 android:text="kmdfksdmkf"
+                 android:layout_marginStart="10dp"
+                 android:textColor="@color/colorPrimary"
+                 />
+
+
+
+            <TextView
+                android:id="@+id/label_body"
+                android:layout_below="@+id/label_lupdated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/st_complaints"
+                android:textSize="14dp"
+
+                android:textColor="@color/colorPrimary"
+                />
+
+
+
+            <TextView
+                android:id="@+id/tv_body"
+                android:layout_below="@+id/label_lupdated"
+                android:layout_toEndOf="@+id/label_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="14dp"
+
+                android:textColor="@color/colorPrimary"
+                />
+
+             <TextView
+                 android:id="@+id/label_ordernumber"
+                 android:layout_below="@+id/label_body"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:text="@string/st_ordernumber"
+                 android:textSize="14dp"
+
+                 android:textColor="@color/colorPrimary"
+                 />
+             <TextView
+                 android:id="@+id/tv_ordernumber"
+                 android:layout_below="@+id/label_body"
+                 android:layout_toEndOf="@+id/label_ordernumber"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                    android:text="jndfsjnfdskd"
+                 android:textSize="14dp"
+                 android:layout_marginTop="10dp"
+                 android:textColor="@color/colorPrimary"
+                 />
+
+
+            <TextView
+                android:id="@+id/label_replies"
+                android:layout_below="@+id/label_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/tv_replies"
+                android:text="@string/st_replies"
+                android:textSize="14dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <TextView
+                android:id="@+id/tv_replies"
+                android:layout_below="@+id/label_status"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="14dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/label_file"
+                android:layout_below="@+id/label_ordernumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/st_files"
+                android:textSize="14dp"
+                android:textColor="@color/colorPrimary"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_file"
+                android:layout_below="@+id/label_ordernumber"
+                android:layout_toEndOf="@+id/label_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="14dp"
+
+
+                android:textColor="#0000EE"
+                />
+         </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_listreply"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/viewdetails"
+                android:background="@drawable/btn_selector_white">
+                <TextView
+                    android:id="@+id/label_reply"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_replies"
+                    android:textSize="18dp"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+
+                    android:background="@drawable/replies_filled"
+                    />
+            <ListView
+                android:layout_below="@+id/label_reply"
+                android:id="@+id/list_reply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:nestedScrollingEnabled="true"
+                android:divider="#e4e4e4"
+                android:dividerHeight="0dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/view_listreply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/viewreply"
+                android:background="@drawable/btn_selector_white">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/label_complain"
+                    android:text="@string/st_replycomplaint"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+                <EditText
+                    android:layout_below="@+id/label_complain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edittext_blue"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/et_complain"
+                    android:textColor="@color/colorPrimary"
+                    android:hint="@string/st_message"
+                    android:gravity="start"
+                    android:paddingStart="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="16dp"
+
+                    android:lines="8"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/et_complain"
+                    android:background="@drawable/border_edittext_blue"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/view_attach"
+                    android:layout_marginTop="20dp">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+
+                        android:text="@string/st_choose"
+                        android:textColor="@color/colorPrimary"
+                        android:id="@+id/tv_choosefile"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/image_name"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:layout_toEndOf="@+id/tv_choosefile"
+                        android:layout_toStartOf="@+id/tv_image_cancel"
+
+                        android:text=""/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:id="@+id/tv_image_cancel"
+                        android:gravity="center"
+
+
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/btn_selector_white"
+                        android:text="X"/>
+
+                </RelativeLayout>
+
+
+
+                    <Button
+                        android:id="@+id/btn_reply"
+                        android:layout_below="@+id/view_attach"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/st_replycomplain"
+                        android:layout_marginTop="20dp"
+                        android:textAllCaps="false"
+                        android:textSize="17dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/begin_button"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <View
+                        android:layout_below="@+id/btn_reply"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

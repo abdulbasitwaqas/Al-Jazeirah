@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/eight_dp" />
+    <padding
+        android:top="@dimen/eight_dp"
+        android:left="@dimen/eight_dp"
+        android:bottom="@dimen/eight_dp"
+        android:right="@dimen/eight_dp" />
+</shape>

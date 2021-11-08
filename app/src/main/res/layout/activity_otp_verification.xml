@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+
+
+    <ImageView
+        android:id="@+id/logoOTP"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/app_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoOTP"
+        android:layout_marginTop="20dp"
+        app:layout_constraintVertical_bias="0.0">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/verification_code"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/black"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/please_type_the_verification_code_sent_to"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/otpVerification_tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+92xxxxxxx"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/black"/>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/view_code"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="40dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/otpVerification_etDigit1"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:inputType="numberDecimal"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:fontFamily="@font/roboto_regular"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/otpVerification_etDigit2"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:inputType="numberDecimal"
+                android:fontFamily="@font/roboto_regular"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/otpVerification_etDigit3"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="@font/roboto_regular"
+                android:inputType="numberDecimal"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/otpVerification_etDigit4"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="@font/roboto_regular"
+                android:inputType="numberDecimal"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/otpVerification_etDigit5"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="@font/roboto_regular"
+                android:inputType="numberDecimal"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/otpVerification_etDigit6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="@font/roboto_regular"
+                android:inputType="numberDecimal"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/didn_t_receive_a_code"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/text_color" />
+
+        <TextView
+            android:id="@+id/otpVerification_tvTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/please_wait_0_57"
+            android:fontFamily="@font/roboto_regular"
+            android:textAlignment="center"
+            android:textColor="@color/text_color" />
+
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/tv_resendsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/st_resend_sms"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/gulf_regular" />
+
+
+</LinearLayout>

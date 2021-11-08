@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <include
+
+        layout="@layout/toolbar_homescreen_activity1" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/label_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_selecticket"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorPrimary"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/label_category"
+                    android:background="@drawable/register_edit_text_bg"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/viewspinnercategory"
+                    android:layout_marginRight="20dp">
+                    <Spinner
+                        android:id="@+id/spinnercategory"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/forty_dp"
+
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/label_customer"
+                    android:layout_below="@+id/viewspinnercategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_selectcustomer"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorPrimary"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/label_customer"
+                    android:background="@drawable/register_edit_text_bg"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/viewspinnercustomer"
+                    android:layout_marginRight="20dp">
+                    <Spinner
+                        android:id="@+id/spinnercustomer"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/forty_dp"
+
+                        />
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/label_icon"
+                    android:layout_below="@+id/viewspinnercustomer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_selecicon"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorPrimary"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/label_icon"
+                    android:background="@drawable/register_edit_text_bg"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/viewspinnerordericon"
+                    android:layout_marginRight="20dp">
+                    <Spinner
+                        android:id="@+id/spinnerordericon"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/forty_dp"
+
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/label_sku"
+                    android:layout_below="@+id/viewspinnerordericon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/st_sku"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorPrimary"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/label_sku"
+                    android:background="@drawable/register_edit_text_bg"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/viewspinnersku"
+                    android:layout_marginRight="20dp">
+                    <Spinner
+                        android:id="@+id/spinnersku"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/forty_dp"
+
+                        />
+                </RelativeLayout>
+                <EditText
+                    android:layout_below="@+id/viewspinnersku"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/border_edittext_blue"
+                    android:hint="@string/st_batches"
+                    android:paddingStart="11dp"
+                    android:paddingTop="7dp"
+                    android:paddingEnd="11dp"
+                    android:id="@+id/et_batches"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="number"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="7dp" />
+                <ImageView
+                    android:layout_below="@+id/viewspinnersku"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/iv_batch"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/et_batches"/>
+
+                <EditText
+                    android:layout_below="@+id/et_batches"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:background="@drawable/border_edittext_blue"
+                    android:hint="@string/st_quantity"
+                    android:paddingStart="11dp"
+                    android:paddingTop="7dp"
+                    android:paddingEnd="11dp"
+                    android:id="@+id/et_quantity"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="7dp" />
+
+
+
+                <EditText
+                    android:layout_below="@+id/et_quantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edittext_blue"
+                    android:gravity="start"
+                    android:hint="@string/st_complaint"
+                    android:minLines="8"
+                    android:id="@+id/et_complaint"
+                    android:paddingStart="11dp"
+                    android:paddingTop="7dp"
+                    android:paddingEnd="11dp"
+                    android:paddingBottom="7dp"
+
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+
+                    />
+
+                <TextView
+                    android:layout_below="@+id/et_complaint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/st_file"
+                    android:textColor="@color/colorPrimary"
+                    android:id="@+id/tv_attach"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_attach"
+                    android:id="@+id/view_attach"
+                    android:background="@drawable/border_edittext_blue"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+
+                        android:text="@string/st_choose"
+                        android:textColor="@color/colorPrimary"
+                        android:id="@+id/tv_choosefile"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/image_name"
+                        android:gravity="center_vertical|end"
+                        android:padding="5dp"
+                        android:layout_toEndOf="@+id/tv_choosefile"
+                        android:layout_toStartOf="@+id/tv_image_cancel"
+
+                        android:text=""/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:id="@+id/tv_image_cancel"
+                        android:gravity="center"
+
+
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/btn_selector_white"
+                        android:text="X"/>
+
+                </RelativeLayout>
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/begin_button"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/view_attach"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="false"
+                    android:text="@string/submit"
+                    android:id="@+id/btn_submit"
+
+                    android:textColor="@color/white"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

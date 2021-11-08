@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:weightSum="8">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/menuHeaderIV"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/app_icon"
+                    android:gravity="center"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:id="@+id/shopMenuLL"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="?selectableItemBackground"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/shopIVMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+
+                    android:background="@drawable/ic_shop" />
+
+                <TextView
+                    android:id="@+id/shopTVMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="start|center"
+                    android:text="@string/shop"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/grey" />
+
+
+            <LinearLayout
+                android:id="@+id/offersMenuLL"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="?selectableItemBackground"
+
+                android:gravity="center|start"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/offersIVMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/ic_offers"
+                    android:backgroundTint="@color/colorAccent"/>
+
+                <TextView
+                    android:id="@+id/offersTVMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="start|center"
+                    android:text="@string/offers"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:id="@+id/ourSRMenuLL"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="?selectableItemBackground"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ourSRIVMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/ic_offers"
+                    android:backgroundTint="@color/colorAccent"/>
+
+                <TextView
+                    android:id="@+id/ourSRTVMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="start|center"
+                    android:text="@string/our_show_rooms"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/grey" />
+            <LinearLayout
+                android:id="@+id/afterSaleMenuLL"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="?selectableItemBackground"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/afterSaleIVMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+
+                    android:background="@drawable/ic_services" />
+
+                <TextView
+                    android:id="@+id/afterSaleTVMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="start|center"
+                    android:text="@string/after_sales"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/grey" />
+
+
+            <LinearLayout
+                android:id="@+id/shareAppMenuLL"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="?selectableItemBackground"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/shareAppIVMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+
+                    android:background="@drawable/ic_share" />
+
+                <TextView
+                    android:id="@+id/shareAppTVMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="start|center"
+                    android:text="@string/share_app"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/grey" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

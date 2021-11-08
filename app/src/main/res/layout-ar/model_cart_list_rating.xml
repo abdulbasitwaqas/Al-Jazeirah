@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_bg_shadow"
+    android:layout_marginTop="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/layoutProduct">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/layout_cart_tvTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:textSize="14sp"
+                        android:singleLine="false"
+                        android:maxLines="2"
+                        android:includeFontPadding="false"
+                        android:layout_marginRight="14dp"
+                        android:fontFamily="@font/gulf_regular"
+                        android:gravity="center"
+                        android:text="Bottle name" />
+
+                    <RatingBar
+                        android:id="@+id/itemRatting"
+                        style="?android:attr/ratingBarStyleIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        android:isIndicator="false"
+                        android:numStars="5"
+                        android:progressTint="@color/colorPrimary"
+                        android:rating="0"
+                        android:stepSize="1.0" />
+
+                </LinearLayout>
+
+        <EditText
+            android:id="@+id/editUserRemarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="top|right"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/gulf_regular"
+            android:hint="@string/st_hint_user_remarks"
+            android:lines="2"
+            android:maxLength="500"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+
+            </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AfterSalesServicesActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_homescreen_activity1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollViewAfterSalesServices"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fullNameCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/fullNameET"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:singleLine="true"
+                        android:maxLines="1"
+
+                        android:fontFamily="@font/roboto_regular"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/fullname"
+                        android:textColorHint="@color/grey_dark"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RadioGroup
+                android:id="@+id/warrantyTypeRBG"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/insideWarrantyRB"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/inside_warranty"/>
+
+
+            </RadioGroup>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/invoiceNumCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/white">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/invoiceNoET"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:background="@android:color/transparent"
+                        android:inputType="number"
+
+                        android:hint="@string/invoice_num"
+                        android:textColorHint="@color/grey_dark"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/invoiceDateCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/invoiceDateET"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:background="@android:color/transparent"
+                        android:editable="false"
+                        android:hint="@string/invoice_date"
+                        android:textColorHint="@color/grey_dark"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/phoneNoCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/phoneNumHeaderTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="+966"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:paddingLeft="12dp"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mobileNumET"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="48dp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center_vertical"
+                        android:hint="@string/phone"
+                        android:maxLength="9"
+                        android:inputType="number"
+
+                        android:textColorHint="@color/grey_dark"/>
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/emailCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/emailET"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:fontFamily="@font/roboto_regular"
+                        android:background="@android:color/transparent"
+
+                        android:hint="@string/email"
+                        android:textColorHint="@color/grey_dark"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cityCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/cityET"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:editable="false"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/roboto_regular"
+                        android:hint="@string/select_city"
+                        android:textColorHint="@color/grey_dark"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/regionCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/white">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/regionET"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/roboto_regular"
+                        android:hint="@string/region"
+                        android:textColorHint="@color/grey_dark"/>
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/problemDesCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/probDescriptionET"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:maxLines="5"
+                        android:background="@android:color/transparent"
+                        android:gravity="left"
+                        android:fontFamily="@font/roboto_regular"
+                        android:hint="@string/problem_description"
+                        android:textColorHint="@color/grey_dark"/>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+            <CheckBox
+                android:id="@+id/termsAndConditionCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="left"
+                android:padding="8dp"
+                android:visibility="gone"
+                android:text="@string/condition_aljazeriah"/>
+
+
+
+
+
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/select_btn"
+                android:text="@string/submit"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="40dp"/>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

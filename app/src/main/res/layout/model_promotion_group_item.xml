@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/border_rect_green"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_title"
+        android:layout_weight="1"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_count"
+            android:padding="10dp"
+            android:textSize="19dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="+"
+            android:textSize="19dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#434345"
+            android:id="@+id/addproduct_button"
+            android:padding="10dp"
+            />
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_dark"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="-"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:textColor="#434345"
+            android:id="@+id/minusproduct_button"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1030445702724",
+    "firebase_url": "https://aljazierah-90e76.firebaseio.com",
+    "project_id": "aljazierah-90e76",
+    "storage_bucket": "aljazierah-90e76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030445702724:android:97347461411adb11c56611",
+        "android_client_info": {
+          "package_name": "com.app.aljazierah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030445702724-l53iu5pth8sjskrkda5o637knrcnsm1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYsWS2hkn7PIOPZAP5S4U-xqfgt_UFbag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030445702724-l53iu5pth8sjskrkda5o637knrcnsm1u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1030445702724-mosvoch34o4u8vi1mh289pdj6suuejnm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aljazierahha"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,622 @@
+<resources>
+    <string name="facebook_app_id">415486665695330</string>
+    <string name="app_name">Al Jazierah</string>
+    <string name="title_activity_drawer">Al-Jazierah</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="my_order">My Orders</string>
+    <string name="about_berain">About Al-Jazeriah</string>
+    <string name="communicate">Communicate</string>
+    <string name="why_berain">Why Al-Jazeriah?</string>
+    <string name="career">Career</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="media_center">Media Center</string>
+    <string name="share_the_app">Share the App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="order_now">Order Now</string>
+    <string name="slide1">http://aljazeriah.com.sa/wp-content/uploads/revslider/restaurent-home-english/textEN1.png</string>
+    <string name="slide2">http://aljazeriah.com.sa/wp-content/uploads/revslider/restaurent-home-english/textEN2.png</string>
+    <string name="slide3">http://aljazeriah.com.sa/wp-content/uploads/revslider/restaurent-home-english/textEN3.png</string>
+    <string name="skip_as_visitor">Skip As Visitor</string>
+    <string name="login_by_phone">Please Login By Your Phone Number</string>
+    <string name="otp_message">Please enter the verification code</string>
+    <string name="phone">Phone Number</string>
+    <string name="sign_in">Sign in</string>
+    <string name="pass">Password</string>
+    <string name="email_or_mobile">Email or Mobile</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">LOGIN</string>
+    <string name="lets_get_started">Let\'s get started</string>
+    <string name="city">City</string>
+    <string name="choose_your_channel">Choose your channel</string>
+    <string name="choose_your_sub_channel">Choose your sub-channel</string>
+    <string name="first_name">Name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="mobile">Mobile</string>
+    <string name="next">Next</string>
+    <string name="register_account">Register account</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="password_hint">*******</string>
+    <string name="add_new_address">Add new address</string>
+    <string name="logout">Logout</string>
+    <string name="company">Company</string>
+    <string name="please_wait">Please wait</string>
+    <string name="products">Products</string>
+    <string name="all_products">All Products</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="currency">SAR</string>
+    <string name="total_amount">Total without VAT</string>
+    <string name="check_out">Check Out</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="empty_cart">Empty Cart</string>
+    <string name="deleting_confirm">Deleting Confirm</string>
+    <string name="order_cancellation_reasons">Order Cancellation Reasons</string>
+
+    <string name="st_refund_to_wallet">Refund to Wallet</string>
+    <string name="st_refund_to_bank">Refund to Bank</string>
+
+
+    <string name="remove_product_message">Do you want to remove this product from cart</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="empty_cart_message">Do you want to clear shopping cart</string>
+    <string name="shopping_cart_is_empty">You shopping cart is empty.</string>
+    <string name="order_number">Order number </string>
+    <string name="collen">:</string>
+    <string name="space"> </string>
+    <string name="date">Date</string>
+    <string name="order_0">You add new order</string>
+    <string name="order_2">Your order is confirmed </string>
+    <string name="order_3">Your order is assigned to driver</string>
+    <string name="order_4">Your order is delivered</string>
+    <string name="order_5">Your order is pending </string>
+    <string name="order_6">Your order is cancelled</string>
+    <string name="order_7">Your order is on Hold</string>
+    <string name="order_8">Your order is on Hold with Delivery</string>
+    <string name="re_order">Re order</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="edit_order">Edit Order</string>
+    <string name="carton">Carton</string>
+    <string name="delivery_time">Delivery time</string>
+    <string name="note">Note</string>
+    <string name="career_url">http://aljazeriah.com.sa/%D8%A7%D9%84%D8%AA%D9%88%D8%B8%D9%8A%D9%81/?lang=en</string>
+    <string name="faq_url">http://aljazeriah.com.sa/%D8%A7%D9%84%D8%A7%D8%B3%D8%A6%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9/?lang=en</string>
+    <string name="news_url">http://aljazeriah.com.sa/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/?lang=en</string>
+    <string name="connect_url">http://aljazeriah.com.sa/contact/?lang=en</string>
+    <string name="about_url">http://aljazeriah.com.sa/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A91/?lang=en</string>
+    <string name="why_berain_url">http://aljazeriah.com.sa/our-team/?lang=en</string>
+    <string name="social_url">http://aljazeriah.com.sa/%D8%AD%D8%A7%D8%A6%D8%B7-%D8%A7%D9%84%D8%B3%D9%88%D8%B4%D9%8A%D8%A7%D9%84/?lang=en</string>
+    <string name="logout_message">Do you want to logout from this App?</string>
+    <string name="choose_address">Choose address</string>
+    <string name="submit">Submit</string>
+    <!--<string name="api_key">AIzaSyAonwksFLZTLuuuCq83HAGpZXhK9SHkU0M</string>
+    <string name="places_api_key">AIzaSyCm5lJdRj2DfW82lgpAYhCC7FUq5W8Ep7Q</string>-->
+
+    <array name="timing">
+        <item>9-12</item>
+        <item>12-3</item>
+        <item>12-3</item>
+        <item>3-6</item>
+        <item>6-9</item>
+    </array>
+    <string name="title_activity_add_address">Add Address</string>
+    <string name="address_des">Address desc*</string>
+    <string name="search">Search</string>
+    <string name="city_req">City *</string>
+    <string name="area_req">Area *</string>
+    <string name="address_name_req">Address Name *</string>
+    <string name="address_name">Address name</string>
+    <string name="building_num">Building Number</string>
+    <string name="block">building number</string>
+    <string name="floor">Floor number</string>
+    <string name="floor_num">Floor Number</string>
+    <string name="error_text">Abha, Abqiq, Abu Arish, Ahad Al Masarha, Ahad Rufaidah, AL Badaya, Al Bokiria, Al Khobar, AL Khobra, Al muznab, AL Rass, AL Zulfi, AlEhsa, Buraydah, Dammam, Dhahran, Gizan, Hafr El Baten, Jeddah, Jubail, Khafjie, Khamis Mushayt, Macca, Madinah, Naariya, Oniza, Qassim, Qatif, Rafha, Ras Tanura, Riyadh, Riyadh Al Khobra, Sabya, Safwa, Sihat</string>
+    <string name="saudia">Saudi</string>
+    <string name="get_my_location">Get my current location</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="please_login">Please login to continue</string>
+    <string name="alert">Alert</string>
+    <string name="change_address">Do you want to change delivery address?</string>
+    <string name="deleting_address">Do you want to delete the address ?</string>
+    <string name="required">Required</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="keep_blank">Keep blank if you want no change</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="my_account">My account</string>
+    <string name="account">Account</string>
+    <string name="choose_area">Choose area</string>
+    <string name="cash_on_delivery">Cash on delivery</string>
+    <string name="credit_card">Credit card</string>
+    <string name="sadad">Sadad</string>
+    <string name="enter_code">Enter the confirmation code form your sms</string>
+    <string name="might_take_time">This might take a minute</string>
+    <string name="did_not_get">Don\'t get it ?</string>
+    <string name="resend_code">Click here to resend</string>
+    <string name="code_problem">Having problem receiving your sms, call \ncustomer service at </string>
+
+    <string name="get_started">Get Started</string>
+    <string name="app_language">اللغة العربية</string>
+    <string name="reset_password">Reset password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+
+    <string name="reset_pass">Reset</string>
+    <string name="password_not_equal">Passwords are not identical</string>
+    <string name="thank_you">Thank You!</string>
+
+    <string name="congratulation">Congratulations </string>
+    <string name="thank_u_for_choosing">Thank you for choosing aljazeriah </string>
+    <string name="history_orders">History Orders</string>
+    <string name="min_order_amount">Minimum order quantity is </string>
+    <string name="min_order_amount_1">Carton/shrink</string>
+    <string name="welcome">Welcome</string>
+    <string name="back_to_products">Back to products</string>
+    <string name="activated">activated</string>
+    <string name="seletect_city">Select city</string>
+    <string name="success">Your data has been saved successfully</string>
+    <string name="place_order">Place Order</string>`
+    <string name="proceed">PROCEED</string>
+    <string name="time">Time</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="crash_toast_text" translatable="false">App has crashed.. please send report to developer</string>
+    <string name="sadad_account_id">SADAD Account ID</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="cvv">CVV</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_month">Expiry Month</string>
+    <string name="expiry_year">Expiry Month</string>
+
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+
+    <string name="year_1">2018</string>
+    <string name="year_2">2019</string>
+    <string name="year_3">2020</string>
+    <string name="year_4">2021</string>
+    <string name="year_5">2022</string>
+    <string name="year_6">2023</string>
+    <string name="year_7">2024</string>
+    <string name="year_8">2025</string>
+    <string name="year_9">2026</string>
+    <string name="year_10">2027</string>
+    <string name="year_11">2028</string>
+    <string name="year_12">2029</string>
+    <string name="year_13">2030</string>
+    <string name="total">Total Amount</string>
+    <string name="vat">VAT</string>
+    <string name="payment_detail">Payment Details</string>
+    <string name="login_to_proceed">Login to Proceed</string>
+    <string name="slogan_ar" translatable="false">صحة أفضل, حياة أفضل</string>
+    <string name="slogan_en" translatable="false">good health,good life</string>
+    <string name="total_order">Total order</string>
+    <string name="street_name">Street name</string>
+    <string name="total_payable">Total payable amount</string>
+    <string name="account_confirmation">Account Confirmation</string>
+    <string name="news">News</string>
+    <string name="social_media">Social Media</string>
+    <string name="faqs">FAQs</string>
+    <string name="share_it">Share it</string>
+    <string name="delicious_text"> https://aljazierah.com/ </string>
+    <string name="sadad_info_text">You will be redirect to your BANK site for payment process. Order will be completed after payment is done.</string>
+    <string name="error_connect">Error occurred while internet connection</string>
+    <string name="invalid_input">Invalid input - please provide correct information.</string>
+    <string name="invalid_mobile">Please enter a valid mobile number.</string>
+    <string name="invalid_otp">Invalid code</string>
+    <string name="transaction_success">Transaction was successful </string>
+    <string name="payment_reference">Payment reference</string>
+    <string name="update_version">Update Version</string>
+    <string name="update_version_msg">A new version is available. Please update to latest version</string>
+    <string name="mobile_eg">05xxxxxxxx</string>
+    <string name="no_service_in_area">Our services are not yet available on your area</string>
+    <string name="no_service_in_area1">Sorry,\n
+ your current location is out of our delivery coverage area.\n
+If you would like a delivery to an alternative location, please just select the location and your favorite products, and we will be pleased to deliver.
+</string>
+    <string name="incorrect_login_error"> "Username or password is incorrect."</string>
+    <string name="enter_name">Please Enter Your Name</string>
+    <string name="yes">Yes</string>
+    <string name="go_to_orders">Go To My Orders</string>
+    <string name="open_orders">Your Open Orders</string>
+    <string name="open_order_dialog_message">You have following already open orders, do you want to make another order?</string>
+    <string name="current_orders">Current Orders: </string>
+    <string name="cancel_order_success_title"> </string>
+    <string name="cancel_order_failed_title"> </string>
+    <string name="cancel_order_pending_title"> </string>
+    <string name="cancel_order_success_status">Your order is cancelled successfully</string>
+    <string name="cancel_order_failed_status">Your order could not be canceled. Please contact customer service center.</string>
+    <string name="cancel_order_pending_status">Your request has been submitted for review successfully</string>
+    <string name="no_time_slot_msg">No time slot available on selected date, please choose another date</string>
+    <string name="promotion">Promotion</string>
+    <string name="promotion_msg">Numbers of free cartons:</string>
+
+    <string name="order">Orders</string>
+    <string name="offer">Offers</string>
+    <string name="more">More</string>
+
+
+    <string name="st_active">ACTIVE</string>
+    <string name="st_history">HISTORY</string>
+    <string name="st_favourite">FAVORITES</string>
+
+    <string name="st_productype">Product Type</string>
+    <string name="st_product_name">Product Name</string>
+    <string name="st_price">Price</string>
+    <string name="st_products">Products</string>
+    <string name="st_product">Product</string>
+    <string name="st_orders">Your Orders</string>
+
+    <string name="st_order_placed"> Placed</string>
+    <string name="st_verified">&#160;Verified</string>
+    <string name="st_shipped">&#160;Shipped</string>
+    <string name="st_delivered">&#160;Delivered</string>
+    <string name="to_proceed_to_check_out_please_enter_your_phone_number">To proceed \n please enter your phone number</string>
+    <string name="we_will_send_you_one_time_sms_message">We will send you one time SMS message</string>
+    <string name="enter_your_number">Enter your number</string>
+
+    <string name="_string_home_user">Home User</string>
+    <string name="_string_login_as_home_user">Login as Home User</string>
+    <string name="_string_corporate_user">Corporate User</string>
+    <string name="_string_login_as_corporate_user">Login as Corporate User</string>
+    <string name="_string_error_username">Enter Valid User Name</string>
+    <string name="_string_error_password">Enter Password</string>
+    <string name="oldpassword">Old password</string>
+    <string name="_string_user_name">User Name</string>
+
+    <string name="verify">Verify</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="please_type_the_verification_code_sent_to">Please type the verification code sent to</string>
+    <string name="enter_four_digit_code_sent_to">Enter the 4 digit code sent to</string>
+    <string name="didn_t_receive_a_code">Didn’t receive a code ?</string>
+    <string name="please_wait_0_57">Please wait </string>
+    <string name="st_glass">Glass</string>
+    <string name="st_plastic">Plastic</string>
+    <string name="Order_id">Order #</string>
+    <string name="st_prom_expired">PromoCode Expired</string>
+    <string name="st_prom_not_available">PromoCode not available in your city</string>
+    <string name="st_prom_used">Promocode already used</string>
+    <string name="st_prom_notfound">Promocode not found</string>
+    <string name="st_prom_notless">Total Order Price is less than the desired promocode</string>
+    <string name="promo_min_qty_error">Total Order Quantity is less than the desired promocode quantity</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="Your_Cart">Your Cart</string>
+    <string name="Order_Details">Order Details</string>
+    <string name="View_Cart">VIEW CART</string>
+    <string name="st_order_created">Order #</string>
+    <string name="st_transaction_created">Reference #</string>
+    <string name="st_validtill">Valid till</string>
+    <string name="st_thankyou">Thank You!</string>
+    <string name="st_orderarrived">Your order has been delivered on time!</string>
+    <string name="st_rateorder">Kindly rate your experience.</string>
+
+    <string name="st_orderarrived_feedback">Your Order is delivered</string>
+    <string name="st_rateorder_feedback">Please Rate Our Service.</string>
+
+    <string name="st_p_quality">Product Quality</string>
+    <string name="st_p_deliverytime">Delivery Time</string>
+    <string name="st_p_deliveryman">Delivery Man Behaviour</string>
+    <string name="st_wallet">Wallet</string>
+    <string name="st_available_bln">Available Balance</string>
+    <string name="st_change">CHANGE</string>
+
+    <string name="st_cancelled">Cancelled</string>
+    <string name="st_process">Processing</string>
+    <string name="st_debit">Debit</string>
+    <string name="st_credit">Credit</string>
+    <string name="st_shopnow">Shop now</string>
+
+    <string name="st_cancel">For assistance please call 920025555</string>
+    <string name="st_assistance">Please call</string>
+    <string name="st_assistance1">to cancel the order</string>
+    <string name="st_resend_sms">Resend Sms</string>
+    <string name="st_confirm_messsage">Some of your items may remove on change location</string>
+    <string name="st_continue">Are you sure you want to continue</string>
+    <string name="st_cancelorder_confirmation">Your order has been canceled successfully</string>
+    <string name="st_gotoshopping">Go to Shopping</string>
+    <string name="st_whatnext">What Happen Next?</string>
+    <string name="st_callcenter">You will get call from Aljazeriah call center</string>
+    <string name="st_order_summary">Order Summary</string>
+    <string name="st_items">Items:</string>
+    <string name="st_paymentoption">Payment Option</string>
+    <string name="st_paymentcod">Cash on Delivery</string>
+    <string name="st_paymentwallet"> Use Wallet</string>
+    <string name="st_deliverytime"> Delivery Time</string>
+    <string name="st_scheduleorder"> Schedule Order</string>
+    <string name="st_morning">Morning</string>
+    <string name="st_evening">Evening</string>
+    <string name="st_anytime">Anytime</string>
+    <string name="st_monthly">Every Month</string>
+    <string name="st_weekly">Every two weeks</string>
+    <string name="st_none">None</string>
+    <string name="st_schedule_order">Schedule Order</string>
+
+    <string name="st_additems">Add Items</string>
+    <string name="st_cod">Cash On Delivery</string>
+    <string name="st_usewallet">Use Wallet</string>
+    <string name="st_paymentdetails">Payment Details</string>
+    <string name="st_orderitems">Order Items</string>
+    <string name="st_promocodediscount">Promo Discount</string>
+    <string name="_string_wallet_discount">Marketing Discount</string>
+    <string name="st_grandtotal">Grand Total</string>
+    <string name="st_checkout">Check Out</string>
+    <string name="st_currentadress">Current Address</string>
+    <string name="st_recentlypurchased">Recently Purchased</string>
+    <string name="st_mada">Mada</string>
+    <string name="_string_select_payment_method">Select Your Payment</string>
+
+    <!--///////////Changes///////////-->
+    <string name="st_tickets">My Tickets</string>
+    <string name="st_fullname">Full Name (optional)</string>
+    <string name="st_fullnamehint">Enter Your full name</string>
+    <string name="st_email">Email Address (optional)</string>
+    <string name="st_complaint">Your complaint</string>
+    <string name="st_complainthint">Text</string>
+    <string name="st_listickets">List Tickets</string>
+    <string name="st_addtickets">Add Ticket</string>
+
+    <string name="st_selecticket">Select Category</string>
+    <string name="st_selectcustomer">Select a Customer Service Officer</string>
+    <string name="st_selecicon">Order</string>
+    <string name="st_selectservice">Select a Customer Service Officer</string>
+    <string name="st_batches">Number of batches</string>
+    <string name="st_quantity">Quantity</string>
+    <string name="st_file">Attach a file</string>
+    <string name="st_choose">Choose file</string>
+    <string name="st_sku">SKU</string>
+    <string name="st_selectorder">Select the order icon</string>
+    <string name="st_chooses">choose</string>
+    <string name="st_takepic">Take A New Picture</string>
+    <string name="st_fromgallery">Choose From Gallery</string>
+    <string name="st_liketo">Would you like to</string>
+    <string name="st_pending">pending</string>
+    <string name="st_complete">closed</string>
+    <string name="st_open">In Progress</string>
+    <string name="st_client">waiting for client</string>
+    <string name="st_delete">Deleted</string>
+    <string name="st_no">Ticket No</string>
+    <string name="st_replies">Replies</string>
+    <string name="st_name">Name</string>
+    <string name="st_ordernumber">Order No.</string>
+    <string name="st_describecomplaint">Describe the complaint</string>
+    <string name="st_complaintnumber">Complaint #</string>
+    <string name="st_created">Created</string>
+    <string name="st_lupdated">updated</string>
+    <string name="st_case">Case</string>
+    <string name="st_title">Title</string>
+    <string name="st_attachfile">Attach a file</string>
+    <string name="st_replycomplaint">Reply to the Complaint</string>
+    <string name="st_message">Message</string>
+    <string name="st_replycomplain">Reply</string>
+    <string name="st_status">Status</string>
+    <string name="st_category">Category</string>
+    <string name="st_body">Body</string>
+    <string name="st_files">File</string>
+    <string name="st_ticketdetail">Ticket Detail</string>
+    <string name="st_by">By :</string>
+    <string name="st_replywith">Reply :</string>
+    <string name="st_date">Date :</string>
+    <string name="st_complaints">Complaint</string>
+    <string name="st_stcmember">Are you stc tamayouz customer?
+        Use stc tamayouz discount</string>
+    <string name="st_otp">Enter OTP</string>
+    <string name="otp">OTP</string>
+    <string name="st_stcmsg">You will recieve OTP from STC</string>
+    <string name="st_stctitle">Use stc tamayouz discount</string>
+    <string name="st_adresserror">You already have an open order at selected address</string>
+    <string name="st_confirmation">Please enter promo code again as your order has been changed</string>
+    <string name="st_proceed">Proceed without Promo code</string>
+    <string name="st_dismiss">Enter Promo code</string>
+    <string name="st_price_with_vat">Prices including VAT</string>
+    <string name="st_staisfaction_with_representative">Satisfaction with \n delivery representative.</string>
+    <string name="st_ratting_experience_with_berain">Your overall experience \nwith Al-Jazeriah.</string>
+    <string name="st_submit_feedback">Submit Feedback</string>
+    <string name="st_rating_product_quality">Product Quality</string>
+    <string name="st_rating_man_behavior">with the Driver</string>
+    <string name="st_rating_delivery_time">Delivery Time</string>
+    <string name="st_qitaf_rewardpoints">You Earned </string>
+    <string name="st_qitaf_rewardpoints_points">Points</string>
+    <string name="st_rating_submitted">Rating Submitted</string>
+
+    <string name="st_credit_insufficient_message">Insufficient Credit, Please Contact Your Account Manager</string>
+
+    <string name="st_apply">Apply Code</string>
+    <string name="st_remove">Remove</string>
+    <string name="st_enter_promo">Promo Code</string>
+
+    <string name="st_points">points</string>
+    <string name="st_hint_user_remarks">Is there any specific comment you would like to share with us regarding your order? (Optional)</string>
+    <string name="_string_Remaining">Remaining:</string>
+    <string name="st_promotion_dialouge_title">Select Free Items</string>
+    <string name="_error_email_invalid">Invalid email</string>
+    <string name="_error_email_unverified">Unverified Email</string>
+    <string name="_verification_code_sent_to">Please type the verification code sent at email</string>
+
+    <!--more screen-->
+    <string name="_string_profile">Profile</string>
+    <string name="_string_personal_info">Personal info</string>
+    <string name="_string_address">Address</string>
+    <string name="_string_app_language">اللغة العربية</string>
+    <string name="_string_share_app">Share App</string>
+    <string name="_string_is_this_stc_number">Is this number registered with STC PAY?</string>
+    <string name="_string_privacy_policy">Terms &amp; Conditions</string>
+    <string name="_string_please_select_area">Please Select Area</string>
+    <string name="_string_enter_address_to_load">Enter Address to Load Products</string>
+    <string name="begin">Begin</string>
+    <string name="choose_language">Please choose your default language</string>
+    <string name="settings">SETTINGS</string>
+    <string name="order_items">Order Items</string>
+    <string name="summary">Summary</string>
+    <string name="brows_products">HOME</string>
+    <string name="valueable_feedback">Thank you for your valuable feedback!</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="cancen_order_surity">Are you sure you want to cancel this order?</string>
+    <string name="cancel_reason">Please share your reason for cancelling your order</string>
+    <string name="change_mind_reason">  I changed my mind</string>
+    <string name="currently_not_available_for_location">  Currently not available at defined location</string>
+    <string name="want_to_change_order_details_reasons">  I want to change my order details</string>
+    <string name="delivery_estimated_time_too_long_cancel_reason">  Delivery estimated time is too long</string>
+    <string name="your_order">Your order</string>
+    <string name="has_been_cancelled">has been cancelled.</string>
+    <string name="use_coupons">Use Coupons</string>
+    <string name="referal">Refferal</string>
+
+    <string name="order_num">Order No# </string>
+    <string name="reference_num">Reference No# </string>
+    <string name="your_order_placed">Your order has been placed!</string>
+    <string name="you_can_track">You can track your order from here.</string>
+    <string name="go_to_my_orders">Go to My Orders</string>
+    <string name="what_happened_next">What Happen Next?</string>
+    <string name="you_will_be_concerned">You will be contacted by customer support to confirm your order!</string>
+    <string name="close_msg">Are you sure you want to close Al-Jazierah?</string>
+    <string name="no">No</string>
+    <string name="see_all">See All</string>
+
+
+    <!--Home Activity-->
+    <string name="shop">Shop</string>
+    <string name="offers">Offers</string>
+    <string name="our_show_rooms">Our Showrooms</string>
+    <string name="after_sales">After Sale Services</string>
+    <string name="add_new_request">Add New Request</string>
+    <string name="share_app">Share App</string>
+    <string name="by_categories">By Categories</string>
+    <string name="hot_deals_products">Hot Deals Products</string>
+    <string name="air_condition">Air Condition</string>
+    <string name="air_cooling">Air Cooling</string>
+    <string name="water_heater">Water Heater</string>
+    <string name="gas_cooker">Gas Cooker</string>
+    <string name="water_cooler">Water Cooler</string>
+    <string name="show_case">Showcase</string>
+    <string name="recent_view">Recent View</string>
+
+    <!--Menu Activity-->
+    <string name="log_in">LogIn</string>
+    <string name="my_wishlist">My Wishlist</string>
+    <string name="language">Language</string>
+    <string name="rate_the_app">Rate the app</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="detail">Intelligent cooling feature through sensors to sense the optimal cooling around each person in a place of 30000 btu inside the room Stronger push for cold air Quadruple air distribution in all directions High-density filters to increase the effectiveness of pure cooling Fast cooling feature for better comfort</string>
+    <string name="menu">Menu</string>
+    <string name="st_shipping_charges">Shipping Charges</string>
+    <string name="fullname">Full Name</string>
+    <string name="product_type">Product Type</string>
+    <string name="inside_warranty">Inside Warranty</string>
+    <string name="outside_warranty">Outside Warranty</string>
+    <string name="invoice_num">Invoice Number</string>
+    <string name="invoice_date">Invoice Date</string>
+    <string name="issue">Issue</string>
+    <string name="select_city">Enter City</string>
+    <string name="region">Region</string>
+    <string name="problem_description">Problem Description</string>
+    <string name="condition_aljazeriah">I agree to the cost of the visit, 100 riyals, including the tax inside the city, not including the spare parts, in the event that the location of the product outside the city, it is calculated on each kilo, 1.05 riyals, including the tax, not including spare parts.</string>
+    <string name="product_detail">Product Details</string>
+    <string name="product_sku">Product SKU:</string>
+    <string name="color">Color:</string>
+    <string name="length">Length:</string>
+    <string name="display">Display:</string>
+    <string name="height">Height:</string>
+    <string name="price">Price:</string>
+    <string name="filter_one">Specifications (Filter) 1:</string>
+    <string name="specification_one">Specifications 1:</string>
+    <string name="specification_two">Specifications 2:</string>
+    <string name="specification_three">Specifications 3:</string>
+    <string name="filter_two">Specifications (Filter) 2:</string>
+    <string name="filter_three">Specifications (filter) 3:</string>
+
+    <string name="enter_product_type">Enter product type</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_invoice_num">Enter your invoice number</string>
+    <string name="enter_invoice_date">Enter invoice date</string>
+    <string name="enter_phone_number">Enter valid phone number</string>
+    <string name="enter_email">Enter correct email</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enter_issue">Add issue</string>
+    <string name="enter_city">Enter city name</string>
+    <string name="enter_region">"Enter region name "</string>
+    <string name="enter_address">Enter address</string>
+    <string name="enter_problem">Describe problem</string>
+    <string name="select_warrenty_type">Select warranty type</string>
+    <string name="something_went_wrong">Something went wrong please try again</string>
+    <string name="no_products_available">No products available</string>
+    <string name="location_not_found">Location Not Found</string>
+    <string name="location">Location</string>
+    <string name="timing">Timings: </string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="_string_view_invoice">View Invoice</string>
+    <string name="_string_track_your_order">Track Your Order</string>
+    <string name="_string_notificatio">Notification</string>
+    <string name="_string_out_of_stock_message">Notify me when stock is available</string>
+    <string name="_string_data_sheet">Data Sheet</string>
+    <string name="_string_Youtu_video">YouTube videos</string>
+    <string name="_string_maintinences">Maintenance Request</string>
+    <string name="_string_description">Description</string>
+    <string name="_string_complaint_id">"Complaint Id "</string>
+    <string name="_string_ticket_id">"Ticket Id "</string>
+    <string name="_string_complaint_date">"Complaint Created "</string>
+    <string name="_string_type">Type</string>
+    <string name="_string_invoice_num">invoice number</string>
+    <string name="_string_title">Title</string>
+    <string name="_string_my_returns">My Return Sale Request</string>
+    <string name="_string_aftersales_returns">After Sales Return</string>
+
+    <string name="_string_return_id">Return Id</string>
+    <string name="best_seller">Best Seller</string>
+    <string name="choose_city">Choose city</string>
+    <string name="account_title">Account Title :</string>
+    <string name="account_number">Ac No :</string>
+    <string name="iban">IBAN :</string>
+    <string name="compare_products">Compare Products</string>
+    <string name="weight">Weight:</string>
+    <string name="subscribe_al_jazirah_news">Do you want to subscribe Al-Jazirah news letter?</string>
+    <string name="please_select_bank">Please Select Your Bank</string>
+    <string name="no_products_to_show">No products to show.</string>
+    <string name="no_filter">No filter</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instragram</string>
+    <string name="twitter">Twitter</string>
+    <string name="snapchat">Snapchat</string>
+    <string name="version">Version</string>
+    <string name="pages">Pages</string>
+    <string name="upload_payment_receipt">Upload Payment Reciept</string>
+    <string name="allow_all_permissions">Kindly allow permissions</string>
+    <string name="want_to_upload">Please confirm the image!</string>
+    <string name="select_image">Select payment receipt</string>
+    <string name="please_select_img">Please select image</string>
+    <string name="st_payment_pending">payment pending</string>
+    <string name="image_removed">Image removed successfully</string>
+    <string name="image_not_removed">Image not removed</string>
+    <string name="st_category_heading">Categories:</string>
+    <string name="sub_category">Sub Category Name</string>
+    <string name="select_category">Select Category</string>
+    <string name="warranty">Warranty</string>
+    <string name="_string_service_slot">Booking Time:</string>
+    <string name="order_id">Order ID:</string>
+    <string name="request_submitted_successfully">Request Submitted Successfully.</string>
+    <string name="promotional_discount">Promotional Discount</string>
+
+
+</resources>

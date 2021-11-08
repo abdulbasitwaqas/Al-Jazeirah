@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/five_dp">
+
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border_rating_alert"
+    android:id="@+id/layoutfeedback"
+    android:padding="5dp">
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_action_close"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_gravity="right"
+        android:id="@+id/imageClose"
+        android:padding="7dp"
+        />
+
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_delivered"
+            android:layout_gravity="center"
+            />
+
+
+
+
+    <TextView
+        android:id="@+id/tvOrderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/five_dp"
+        android:text=""
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="17sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/button_normal"
+            android:layout_margin="10dp"
+            />
+
+    <TextView
+        android:id="@+id/tv_please_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/st_rateorder"
+        android:textColor="@color/black"
+
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/OrderItemsRatingRecyclerView"
+        />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/begin_button"
+        android:text="@string/submit"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:layout_below="@+id/layoutfeedback"
+        android:id="@+id/tvSubmitRating"
+        android:fontFamily="@font/gulf_regular"
+        android:visibility="visible"
+        />
+
+
+  </LinearLayout>
+
+
+
+
+</RelativeLayout>

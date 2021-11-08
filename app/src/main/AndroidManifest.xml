@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.aljazierah"
+    android:allowBackup="false"
+    tools:replace="android:allowBackup">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE " />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <!-- Optional : -->
+
+    <!--
+ <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    -
+          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+          Google Maps Android API v2, but you must specify either coarse or fine
+          location permissions for the 'MyLocation' functionality.
+    -->
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission
+        android:name="com.app.aljazierah.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="com.app.aljazierah.AppController"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        tools:replace="android:allowBackup"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m" >
+
+        <activity android:name="com.app.aljazierah.ui.PagesActivity"></activity>
+
+        <activity android:name="com.app.aljazierah.ui.CompareProductsActivity" />
+
+        <activity
+            android:name="com.app.aljazierah.ui.OurShowRoomsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.aljazierah.ui.SearchProductsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.aljazierah.ui.AfterSalesServicesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.AfterSalesServicesMyReturnsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.ReturnListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.OurShowRoomsMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.SingleProductDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.SeeAllActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.MyWishListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.MaintenancesDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.ReturnsDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.MaintenanceListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.aljazierah.ui.LoginActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" /> <!-- android:screenOrientation="sensorPortrait" -->
+        <activity
+            android:name="com.app.aljazierah.ui.OTPVerificationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.app.aljazierah.ui.UpdateUserNameActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.app.aljazierah.ui.ChooseAddressActivity"
+            android:label="@string/choose_address"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.app.aljazierah.ui.AddAddressActivity"
+            android:label="@string/title_activity_add_address"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.EditProfileActivity"
+            android:label="@string/my_account"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.TermsAndConditionsActivity"
+            android:label="@string/choose_address"
+            android:screenOrientation="portrait" />
+        <!--
+ <activity
+            android:name=".ui.SadadPaymentActivity"
+            android:label="@string/my_account"
+            android:screenOrientation="sensorPortrait" />
+        -->
+        <activity
+            android:name="com.app.aljazierah.ui.ShareActivity"
+            android:label="@string/share"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.OrderDetails"
+            android:label="@string/share"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.HomeScreen.HomeScreenActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+                <data android:scheme="http" />
+                <data android:host="fayha.onelink.me" />
+                <data android:pathPrefix="/QL3X" />
+                <data android:pathPattern=".*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.aljazierah.ui.HyperpayPaymentActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <data android:scheme="com.app.fayha" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.aljazierah.ui.CheckOutActivity"
+            android:label="@string/share"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.app.aljazierah.ui.WalletInformationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+
+        <receiver
+            android:name="com.appsflyer.SingleInstallBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <service
+            android:name="com.app.aljazierah.utils.AppIndexingService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.APPINDEXING">
+            <intent-filter>
+                <action android:name="com.google.firebase.appindexing.UPDATE_INDEX" />
+            </intent-filter>
+        </service>
+
+        <!-- services for push notification -->
+        <service
+            android:name="com.app.aljazierah.utils.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/app_icon" />
+
+
+        <service android:name="com.app.aljazierah.utils.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- HMS notification -->
+        <service
+            android:name="com.app.aljazierah.utils.MyHMSMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="push_kit_auto_init_enabled"
+            android:value="false" /> <!-- updated app -->
+        <activity
+            android:name="com.app.aljazierah.ui.CanceledOrder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.SuccessfullOrder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.CancelOrder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.ProductDetails"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.app.aljazierah.ui.PersonalInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.Ticket"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.app.aljazierah.ui.TicketList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.aljazierah.ui.TicketDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true" /> <!-- hyperpay -->
+        <activity
+            android:name="com.oppwa.mobile.connect.checkout.dialog.CheckoutActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewCheckoutTheme"
+            android:windowSoftInputMode="adjustPan"
+            tools:replace="android:theme,android:windowSoftInputMode" />
+
+        <service
+            android:name="com.oppwa.mobile.connect.service.ConnectService"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.app.aljazierah.utils.CheckoutBroadcastReceiver.CheckoutBroadcastReceiver"
+            android:exported="false" /> <!-- CLEVERTAP_ACCOUNT_ID -->
+        <meta-data
+            android:name="CLEVERTAP_ACCOUNT_ID"
+            android:value="R9Z-W4R-9W6Z" />
+        <meta-data
+            android:name="CLEVERTAP_TOKEN"
+            android:value="240-1c2" /> <!-- IMPORTANT: To force use Google AD ID to uniquely identify  users, use the following meta tag. GDPR mandates that if you are using this tag, there is prominent disclousure to your end customer in their application. Read more about GDPR here - https://clevertap.com/blog/in-preparation-of-gdpr-compliance/ -->
+        <meta-data
+            android:name="CLEVERTAP_USE_GOOGLE_AD_ID"
+            android:value="1" /> <!-- replace below value with your FCM project number. -->
+        <meta-data
+            android:name="FCM_SENDER_ID"
+            android:value="id:403517756777" />
+        <meta-data
+            android:name="CLEVERTAP_BACKGROUND_SYNC"
+            android:value="1" />
+
+        <service android:name="com.clevertap.android.sdk.FcmTokenListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="CLEVERTAP_NOTIFICATION_ICON"
+            android:value="ic_notification_24" />
+        <!-- name of your file in the drawable directory without the file extension. -->
+        <service android:name="com.clevertap.android.sdk.FcmMessageListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

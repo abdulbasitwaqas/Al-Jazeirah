@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@+id/vtop"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_dark"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/si_expandable_header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/text_color"
+        android:fontFamily="@font/roboto_regular"
+        android:textStyle="bold"
+        tools:text="Header"
+        android:includeFontPadding="false"
+        android:padding="15dp"
+        android:layout_below="@id/vtop"/>
+
+    <ImageView
+        android:id="@+id/si_expandable_header_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp" />
+    <View
+        android:id="@+id/vbottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_dark"
+        android:visibility="gone"
+
+        android:layout_below="@id/si_expandable_header_text"/>
+
+</RelativeLayout>

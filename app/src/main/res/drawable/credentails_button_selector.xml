@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+
+        <shape>
+            <solid android:color="@color/button_normal" />
+            <padding android:bottom="@dimen/eight_dp" android:left="@dimen/eight_dp" android:right="@dimen/eight_dp" android:top="@dimen/eight_dp" />
+            <stroke android:width="@dimen/two_dp" android:color="@color/colorPrimary" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/button_normal" />
+            <padding android:bottom="@dimen/eight_dp" android:left="@dimen/eight_dp" android:right="@dimen/eight_dp" android:top="@dimen/eight_dp" />
+            <stroke android:width="@dimen/two_dp" android:color="@color/colorPrimary" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/transparent" />
+            <padding android:bottom="@dimen/eight_dp" android:left="@dimen/eight_dp" android:right="@dimen/eight_dp" android:top="@dimen/eight_dp" />
+            <stroke android:width="@dimen/two_dp" android:color="@color/colorPrimary" />
+        </shape>
+    </item>
+</selector>

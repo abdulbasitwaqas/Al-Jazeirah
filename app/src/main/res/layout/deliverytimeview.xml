@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginRight="12dp"
+    android:orientation="vertical"
+ >
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/delivery_time"
+     android:textColor="@color/text_color"
+     android:textSize="18sp"
+     android:layout_marginStart="4dp"
+     android:fontFamily="@font/roboto_regular"
+     android:id="@+id/textview_payment_head" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        android:weightSum="3"
+        android:layout_marginStart="4dp"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/radioButtonMorning"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:button="@drawable/radio_btn_blue"
+            android:text="@string/st_morning"
+            android:visibility="visible"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonEvening"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/text_color"
+            android:button="@drawable/radio_btn_blue"
+            android:text="@string/st_evening"
+            android:visibility="visible"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/roboto_regular"
+
+            android:layout_marginTop="5dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonAnytime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:button="@drawable/radio_btn_blue"
+            android:text="@string/st_anytime"
+            android:fontFamily="@font/roboto_regular"
+
+            android:visibility="visible"
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

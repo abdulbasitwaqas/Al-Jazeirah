@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="12dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_method"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/gulf_regular"
+        android:layout_marginStart="4dp"
+        android:id="@+id/textview_payment_head"
+
+        />
+
+    <TextView
+        android:id="@+id/paymentOptionView_tvChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st_change"
+
+        android:includeFontPadding="false"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview_payment_head"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/gulf_regular"
+        android:gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st_cod"
+        android:id="@+id/tvPaymentType"
+        android:includeFontPadding="false"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textview_payment_head"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"
+        android:fontFamily="@font/gulf_regular"
+        android:gravity="center"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        />
+
+
+<!--
+
+    <LinearLayout
+        android:id="@+id/couponsLLMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/tvPaymentType"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+       &lt;!&ndash; <LinearLayout
+            android:id="@+id/couponsLL"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/couponsTV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/use_coupons"
+                android:fontFamily="@font/gulf_regular"
+                android:textColor="@color/text_color"
+                android:gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/couponsSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginStart="4dp"
+                android:textSize="12sp"
+                android:padding="8dp"
+                android:thumb="@drawable/thumb_selector"
+                app:track="@drawable/track_selector_order_detail"
+                android:checked="true" />
+        </LinearLayout>
+&ndash;&gt;
+        <LinearLayout
+            android:id="@+id/walletLL"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/walletTV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/st_usewallet"
+                android:fontFamily="@font/gulf_regular"
+                android:textColor="@color/text_color"
+                android:gravity="center_vertical"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/walletSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginStart="4dp"
+                android:padding="8dp"
+                android:thumb="@drawable/thumb_selector"
+                app:track="@drawable/track_selector_order_detail"
+                android:checked="false"/>
+        </LinearLayout>
+
+
+    </LinearLayout>-->
+
+
+</RelativeLayout>

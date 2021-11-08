@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/five_dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="@dimen/five_dp"
+    android:background="@drawable/_background_white_shadow">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radioSelectedAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:buttonTint="@color/black"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/address_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:fontFamily="@font/gulf_bold" />
+
+
+        <ImageView
+            android:id="@+id/delete_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="visible"
+            android:src="@drawable/ic_delete" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/address_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="11dp"
+        android:fontFamily="@font/gulf_regular"
+        android:textColor="@color/black" />
+
+</LinearLayout>

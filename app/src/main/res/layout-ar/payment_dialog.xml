@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="320dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_layout"
+    android:gravity="center"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_dialog"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_busy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/gulf_regular"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="اختر الدفع الخاص بك"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_mada"
+            android:fontFamily="@font/gulf_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rb_sadad"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:button="@drawable/custom_radio_button_selector"
+            android:drawablePadding="5dp"
+            android:paddingLeft="2dp"
+            android:text="@string/st_mada"
+            android:includeFontPadding="false"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rb_sadad"
+            android:fontFamily="@font/gulf_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButtonWallet"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginRight="20dp"
+            android:button="@drawable/custom_radio_button_selector"
+            android:drawablePadding="5dp"
+            android:paddingRight="2dp"
+            android:text="@string/sadad"
+            android:includeFontPadding="false"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+
+            android:textSize="15dp" />
+
+        <RadioButton
+
+            android:id="@+id/rb_cd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rb_cod"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:button="@drawable/custom_radio_button_selector"
+            android:paddingRight="2dp"
+            android:text="بطاقة ائتمان"
+            android:includeFontPadding="false"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:fontFamily="@font/gulf_regular"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/rb_cod"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_busy"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:button="@drawable/custom_radio_button_selector"
+            android:paddingRight="2dp"
+            android:text="الدفع عند الاستلام"
+            android:fontFamily="@font/gulf_regular"
+            android:textAllCaps="false"
+            android:includeFontPadding="false"
+            android:textColor="@color/text_color"
+            android:textSize="15dp" />
+
+
+        <RadioButton
+            android:id="@+id/radioButtonWallet"
+            android:fontFamily="@font/gulf_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rb_cd"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginRight="20dp"
+            android:button="@drawable/custom_radio_button_selector"
+            android:drawablePadding="5dp"
+            android:paddingRight="2dp"
+            android:text="المحفظة النقدية"
+            android:includeFontPadding="false"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

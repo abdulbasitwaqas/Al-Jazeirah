@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+  <!--  <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_homescreen_activity"
+        android:visibility="visible"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/tab_selector"
+        android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="4dp"
+                android:src="@mipmap/back_btn"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/imageViewBackButton"
+                android:visibility="visible"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/gulf_regular"
+                android:id="@+id/tvToolbarTitleTCA"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:maxWidth="250dp"
+                android:textSize="16dp"
+                android:padding="10dp"
+                />
+
+
+    </RelativeLayout>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/ten_dp"
+        android:clipToPadding="false"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:id="@+id/info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/eight_dp"
+                android:padding="@dimen/two_dp"
+                android:text=""
+                
+                android:fontFamily="@font/gulf_regular"
+                android:id="@+id/tvPrivacyPolicy"
+                android:visibility="visible"
+                android:textColor="@color/off_black"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

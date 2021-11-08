@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/menuImgHeader"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/app_icon" />
+
+
+            </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/ourShowRoomLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:src="@drawable/ic_showrooms" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/gulf_regular"
+                        android:includeFontPadding="false"
+                        android:padding="10dp"
+                        android:text="@string/our_show_rooms"
+                        android:textColor="@color/text_color"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/wishListLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:src="@drawable/ic_favourite" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/gulf_regular"
+                        android:includeFontPadding="false"
+                        android:padding="10dp"
+                        android:text="@string/my_wishlist"
+                        android:textColor="@color/text_color"
+                        android:textSize="16sp" />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/afterSalesServicesLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/afterSaleServicesLL"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?selectableItemBackground"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:src="@drawable/ic_service" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/gulf_bold"
+                            android:includeFontPadding="false"
+                            android:padding="10dp"
+                            android:text="@string/after_sales"
+                            android:textColor="@color/text_color"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/arrowASS"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:src="@drawable/ic_right_chevron" />
+
+                    </LinearLayout>
+
+
+
+
+                <TextView
+                    android:id="@+id/tvAfterSales"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:includeFontPadding="false"
+                    android:background="?selectableItemBackground"
+                    android:fontFamily="@font/gulf_regular"
+                    android:text="@string/add_new_request"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvmaintenances"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:includeFontPadding="false"
+                    android:background="?selectableItemBackground"
+                    android:fontFamily="@font/gulf_regular"
+                    android:text="@string/_string_maintinences"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/tvmyReturns"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:includeFontPadding="false"
+                    android:background="?selectableItemBackground"
+                    android:fontFamily="@font/gulf_regular"
+                    android:text="@string/_string_my_returns"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey"
+                android:layout_marginTop="8dp" />
+
+            <LinearLayout
+                android:id="@+id/bestSellerLLFH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/gulf_bold"
+                    android:includeFontPadding="false"
+                    android:padding="10dp"
+                    android:text="@string/best_seller"
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/categoriesNameRV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overScrollMode="never"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
